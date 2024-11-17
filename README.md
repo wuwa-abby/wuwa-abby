@@ -1,3 +1,6 @@
+> [!WARNING] 
+> Development paused until March-April 2025. This is due to my personal laptop becoming too slow to comfortably code and debug.
+
 # Wuwa Abby
 
 Wuwa Abby is a tracking tool designed to help players of Wuthering Waves track and plan their wish (convene) progress. The site allows users to monitor their pity, view their wish history, analyze stats, and manage multiple profiles if they have more than one account.
