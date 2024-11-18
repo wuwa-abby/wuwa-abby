@@ -1,0 +1,21 @@
+{
+    "id": "1603",
+    "name": "Camellya",
+    "nickname": "Camellya",
+    "birthday": "December 10th",
+    "sex": "Female",
+    "country": "Unknown",
+    "influence": "The Black Shores",
+    "bio": "December 10th",
+    "talent": {
+        "name": "Witch of the Camellia",
+        "description": "Uses her own life force as sustenance to catalyze the instantaneous blooming of flower seeds. \n\nHer body is corrupted by the flower, and her arms are magically transformed into Camellya flowers and vines capable of grabbing others. \n\nWith the power of the Camellya flower, she can devour the life force of her enemies and finish the battle."
+    },
+    "voice_actors": {
+        "CN": "Unknown",
+        "JP": "Unknown",
+        "EN": "Unknown",
+        "KO": "Unknown"
+    },
+    "combo_teaching": []
+}

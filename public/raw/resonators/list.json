@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1102,
+        "name": "Sanhua",
+        "element": "Glacio",
+        "rarity": 4,
+        "weaponOfChoice": "Sword"
+    },
+    {
+        "id": 1103,
+        "name": "Baizhi",
+        "element": "Glacio",
+        "rarity": 4,
+        "weaponOfChoice": "Rectifier"
+    },
+    {
+        "id": 1104,
+        "name": "Lingyang",
+        "element": "Glacio",
+        "rarity": 5,
+        "weaponOfChoice": "Gauntlets"
+    },
+    {
+        "id": 1202,
+        "name": "Chixia",
+        "element": "Fusion",
+        "rarity": 4,
+        "weaponOfChoice": "Pistols"
+    },
+    {
+        "id": 1203,
+        "name": "Encore",
+        "element": "Fusion",
+        "rarity": 5,
+        "weaponOfChoice": "Rectifier"
+    },
+    {
+        "id": 1204,
+        "name": "Mortefi",
+        "element": "Fusion",
+        "rarity": 4,
+        "weaponOfChoice": "Pistols"
+    },
+    {
+        "id": 1205,
+        "name": "Changli",
+        "element": "Fusion",
+        "rarity": 5,
+        "weaponOfChoice": "Sword"
+    },
+    {
+        "id": 1301,
+        "name": "Calcharo",
+        "element": "Electro",
+        "rarity": 5,
+        "weaponOfChoice": "Broadblade"
+    },
+    {
+        "id": 1302,
+        "name": "Yinlin",
+        "element": "Electro",
+        "rarity": 5,
+        "weaponOfChoice": "Rectifier"
+    },
+    {
+        "id": 1303,
+        "name": "Yuanwu",
+        "element": "Electro",
+        "rarity": 4,
+        "weaponOfChoice": "Gauntlets"
+    },
+    {
+        "id": 1304,
+        "name": "Jinhsi",
+        "element": "Spectro",
+        "rarity": 5,
+        "weaponOfChoice": "Broadblade"
+    },
+    {
+        "id": 1402,
+        "name": "Yangyang",
+        "element": "Aero",
+        "rarity": 4,
+        "weaponOfChoice": "Sword"
+    },
+    {
+        "id": 1403,
+        "name": "Aalto",
+        "element": "Aero",
+        "rarity": 4,
+        "weaponOfChoice": "Pistols"
+    },
+    {
+        "id": 1404,
+        "name": "Jiyan",
+        "element": "Aero",
+        "rarity": 5,
+        "weaponOfChoice": "Broadblade"
+    },
+    {
+        "id": 1405,
+        "name": "Jianxin",
+        "element": "Aero",
+        "rarity": 5,
+        "weaponOfChoice": "Gauntlets"
+    },
+    {
+        "id": 1503,
+        "name": "Verina",
+        "element": "Spectro",
+        "rarity": 5,
+        "weaponOfChoice": "Rectifier"
+    },
+    {
+        "id": 1601,
+        "name": "Taoqi",
+        "element": "Havoc",
+        "rarity": 4,
+        "weaponOfChoice": "Broadblade"
+    },
+    {
+        "id": 1602,
+        "name": "Danjin",
+        "element": "Havoc",
+        "rarity": 4,
+        "weaponOfChoice": "Sword"
+    },
+    {
+        "id": 1105,
+        "name": "Zhezhi",
+        "element": "Glacio",
+        "rarity": 5,
+        "weaponOfChoice": "Rectifier"
+    },
+    {
+        "id": 1305,
+        "name": "Xiangli Yao",
+        "element": "Electro",
+        "rarity": 5,
+        "weaponOfChoice": "Gauntlets"
+    }
+]

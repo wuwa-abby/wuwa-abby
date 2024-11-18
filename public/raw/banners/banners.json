@@ -1,82 +1,92 @@
 [
-    {
-        "key": "resonator-event-zhezhi-20240815-20240907",
-        "kuroBannerId": "Resonators Accurate Modulation",
-        "from": "2024-08-15T00:00:00",
-        "to": "2024-09-07T09:59:00",
-        "showUI": true
-    },
-    {
-        "key": "resonator-event-changli-20240722-20240814",
-        "from": "2024-07-22T10:00:00",
-        "to": "2024-08-14T11:59:59"
-    },
-    {
-        "key": "resonator-event-jinhsi-20240628-20240722",
-        "from": "2024-06-28T12:00:00",
-        "to": "2024-07-22T09:59:59"
-    },
-    {
-        "key": "resonator-event-yinlin-20240613-20240626",
-        "from": "2024-06-06T10:00:00",
-        "to": "2024-06-26T23:59:59"
-    },
-    {
-        "key": "resonator-event-jiyan-20240513-20240606",
-        "from": "2024-05-23T00:00:00",
-        "to": "2024-06-06T09:59:59"
-    },
-    {
-        "key": "resonator-standard-permanent-20240521-99990913",
-        "from": "0001-01-01T00:00:01",
-        "to": "9999-09-13T23:59:59",
-        "showUI": true
-    },
-    {
-        "key": "weapon-standard-permanent-20240521-99990913",
-        "from": "0001-01-01T00:00:01",
-        "to": "9999-09-13T23:59:59",
-        "showUI": true
-    },
-    {
-        "key": "resonator-standard-select-20240521-99990913",
-        "from": "0001-01-01T00:00:01",
-        "to": "9999-09-13T23:59:59"
-    },
-    {
-        "key": "resonator-standard-all-20240521-99990913",
-        "from": "0001-01-01T00:00:01",
-        "to": "9999-09-13T23:59:59"
-    },
-    {
-        "key": "resonator-standard-fifty-20240521-99990913",
-        "from": "0001-01-01T00:00:01",
-        "to": "9999-09-13T23:59:59"
-    },
-    {
-        "key": "weapon-event-verdant_summit-20240523-20240606",
-        "from": "2024-05-23T00:00:00",
-        "to": "2024-06-06T09:59:59"
-    },
-    {
-        "key": "weapon-event-stringmaster-20240606-20240626",
-        "from": "2024-06-06T10:00:00",
-        "to": "2024-06-26T23:59:59"
-    },
-    {
-        "key": "weapon-event-blazing_brilliance-20240722-20240814",
-        "from": "2024-07-22T10:00:00",
-        "to": "2024-08-14T11:59:59"
-    },
-    {
-        "key": "weapon-event-ages_of_harvest-20240628-20240722",
-        "from": "2024-06-28T12:00:00",
-        "to": "2024-07-22T09:59:59"
-    },
-    {
-        "key": "weapon-event-rime_draped_sprouts-20240815-20240907",
-        "from": "2024-08-15T00:00:00",
-        "to": "2024-09-07T09:59:00",
-        "showUI": true
-    }
+  {
+    "key": "resonator-standard-permanent-20240521-99990913",
+    "from": "0001-01-01T00:00:01",
+    "to": "9999-09-13T23:59:59",
+    "showUI": true
+  },
+  {
+    "key": "resonator-standard-pity50-20240521-99990913",
+    "from": "0001-01-01T00:00:01",
+    "to": "9999-09-13T23:59:59",
+    "showUI": false
+  },
+  {
+    "key": "resonator-standard-select80-20240521-99990913",
+    "from": "0001-01-01T00:00:01",
+    "to": "9999-09-13T23:59:59",
+    "showUI": false
+  },
+  {
+    "key": "resonator-standard-ticket-20240521-99990913",
+    "from": "0001-01-01T00:00:01",
+    "to": "9999-09-13T23:59:59",
+    "showUI": false
+  },
+  {
+    "key": "weapon-standard-permanent-20240521-99990913",
+    "from": "0001-01-01T00:00:01",
+    "to": "9999-09-13T23:59:59",
+    "showUI": true
+  },
+  {
+    "key": "resonator-event-zhezhi-20240815-20240907",
+    "from": "2024-08-15T12:00:00",
+    "to": "2024-09-07T09:59:00",
+    "showUI": false
+  },
+  {
+    "key": "weapon-event-rime_draped_sprouts-20240815-20240907",
+    "from": "2024-08-15T12:00:00",
+    "to": "2024-09-07T09:59:00",
+    "showUI": false
+  },
+  {
+    "key": "resonator-event-changli-20240722-20240814",
+    "from": "2024-07-22T10:00:00",
+    "to": "2024-08-14T11:59:59",
+    "showUI": false
+  },
+  {
+    "key": "weapon-event-blazing_brilliance-20240722-20240814",
+    "from": "2024-07-22T10:00:00",
+    "to": "2024-08-14T11:59:59",
+    "showUI": false
+  },
+  {
+    "key": "resonator-event-jinhsi-20240628-20240722",
+    "from": "2024-06-28T12:00:00",
+    "to": "2024-07-22T09:59:59",
+    "showUI": false
+  },
+  {
+    "key": "weapon-event-ages_of_harvest-20240628-20240722",
+    "from": "2024-06-28T12:00:00",
+    "to": "2024-07-22T09:59:59",
+    "showUI": false
+  },
+  {
+    "key": "resonator-event-yinlin-20240613-20240626",
+    "from": "2024-06-06T10:00:00",
+    "to": "2024-06-26T23:59:59",
+    "showUI": false
+  },
+  {
+    "key": "weapon-event-stringmaster-20240606-20240626",
+    "from": "2024-06-06T10:00:00",
+    "to": "2024-06-26T23:59:59",
+    "showUI": false
+  },
+  {
+    "key": "resonator-event-jiyan-20240513-20240606",
+    "from": "2024-05-23T00:00:00",
+    "to": "2024-06-06T09:59:59",
+    "showUI": false
+  },
+  {
+    "key": "weapon-event-verdant_summit-20240523-20240606",
+    "from": "2024-05-23T00:00:00",
+    "to": "2024-06-06T09:59:59",
+    "showUI": false
+  }
 ]

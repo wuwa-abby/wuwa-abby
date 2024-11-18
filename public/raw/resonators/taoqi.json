@@ -1,0 +1,50 @@
+{
+    "id": "1601",
+    "name": "Taoqi",
+    "nickname": "Power of Xuanwu",
+    "birthday": "February 25th",
+    "sex": "Female",
+    "country": "Huanglong",
+    "influence": "Jinzhou",
+    "bio": "February 25th",
+    "talent": {
+        "name": "Blossom of Slashes",
+        "description": "Evaluation Basis: [Resonance Assessment 2083-G]\n\nResonator Taoqi experienced her Forte-Awakening 3 years ago, with no identifiable triggering event.\n\nResonator Taoqi's Tacet Mark is located in the interscapular region. Post-Awakening observations have not found any notable physical changes. Tests indicate that Taoqi's skin possesses a heightened level of toughness compared to the average individual. \n\nShe possesses the ability to generate a unique force field, creating a protective barrier to shield herself and others from potential harm.\nTaoqi's Resonance Spectrum Pattern shows no resemblance to known samples. The cause of her Awakening remains unknown.\n\n\nAnalysis of test samples has revealed a non-convergent Rabelle's Curve with a stable rise. Occasional fluctuations within normal range have been detected. Therefore, Taoqi is classified as a Natural Resonator."
+    },
+    "voice_actors": {
+        "CN": "VA: Kiyo",
+        "JP": "VA: Youmiya Hina",
+        "EN": "VA: Clare Louise Connolly",
+        "KO": "VA: Yi Sae Ah"
+    },
+    "combo_teaching": [
+        {
+            "title": "Taoqi: <color=#d4bf5f>Basic Attack</color> Tutorial",
+            "description": "Swing the giant blade and launch up to 4 consecutive strikes, dealing <color=#e649a6>Havoc damage</color>."
+        },
+        {
+            "title": "Taoqi: <color=#d4bf5f>Heavy Attack</color> Tutorial",
+            "description": "Consume STA and enter <color=#f4d582>Rocksteady Defense</color> state. Release Heavy Attack button to end <color=#f4d582>Rocksteady Defense</color> and immediately launch an attack, dealing <color=#e649a6>Havoc DMG</color>."
+        },
+        {
+            "title": "Taoqi: <color=#d4bf5f>Mid-air Attack</color> Tutorial",
+            "description": "Consume STA to launch a Plunging Attack mid-air, dealing <color=#e649a6>Havoc DMG</color>."
+        },
+        {
+            "title": "Taoqi: Resonance Skill Tutorial",
+            "description": "Cast \"Fortified Defense\", dealing <color=#e649a6>Havoc Damage</color> to surrounding targets, and generating 3 <color=#f4d582>Rocksteady Shield</color>. Incoming attacks at this time will trigger <color=#f4d582>Strategic Parry</color> to retaliate against the target."
+        },
+        {
+            "title": "Taoqi: Resonance Liberation Tutorial",
+            "description": "Launch an attack based on Taoqi's DEF to the target, dealing <color=#e649a6>Havoc damage</color> and slowing down targets nearby."
+        },
+        {
+            "title": "Taoqi: <color=#d4bf5f>Heavy Attack</color> Tutorial <color=#d4bf5f>Strategic Parry</color>",
+            "description": "Focus on Defense and take reduced damage under the <color=#f4d582>Rocksteady Defense</color> state.\nDuring <color=#f4d582>Rocksteady Defense</color>, when attacked or the charge is complete, launch <color=#f4d582>Strategic Parry</color>, counterattacking the target, dealing <color=#e649a6>Havoc damage</color>."
+        },
+        {
+            "title": "Taoqi: Forte Circuit Tutorial <color=#f4d582>Timed Counters</color>",
+            "description": "When <color=#f4d582>Heavy Attack: Strategic Parry</color> is successfully triggered, perform up to three follow-up attacks, dealing <color=#e649a6>Havoc DMG</color>, considered as Basic Attack DMG. Each follow-up attack consumes \"Resolving Caliber\" on hit to grant a shield."
+        }
+    ]
+}

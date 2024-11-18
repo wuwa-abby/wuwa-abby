@@ -1,0 +1,57 @@
+{
+    "id": "1503",
+    "name": "Verina",
+    "nickname": "Nature Calling",
+    "birthday": "May 18th",
+    "sex": "Female",
+    "country": "New Federation",
+    "influence": "Jinzhou",
+    "bio": "May 18th",
+    "talent": {
+        "name": "Nature Calling",
+        "description": "Evaluation Basis: [Resonance Assessment 1916-G]\n\nAccording to Resonator Verina's reports, she has had significant exposure to botanical samples since childhood and is able to audibly detect their frequencies. The timing of her Awakening is unknown.\n\nVerina's resonance frequency shows an increasing trend over time, leading to speculation that her Forte abilities will also continue to strengthen with age. The extent of this growth is still being monitored.\n\nResonator Verina bears a Tacet Mark below her clavicle. Following her Awakening, physical changes have been noted, such as the emergence of vines on both ears and dorsal spine.\n\nThese vines form a symbiotic relationship with Verina and assist in converting her resonance frequency into Spectro energy for efficient storage and release during use of Forte.\n\nAdditionally, Verina's Resonance Spectrum Pattern aligns with known patterns of plant life. Strong Syntony reaction have been recorded during testing, yet the exact cause of Verina's Awakening remains inconclusive.\n\nAnalysis of test samples has revealed a non-convergent Rabelle's Curve with a noticeable periodic waveform. Therefore, Verina is classified as a Congenital Resonator."
+    },
+    "voice_actors": {
+        "CN": "VA: Zhao Shuang",
+        "JP": "VA: Sasahara Yu",
+        "EN": "VA: Heather Nicol",
+        "KO": "VA: Kang Sae Bom"
+    },
+    "combo_teaching": [
+        {
+            "title": "Verina: <color=#d4bf5f>Basic Attack</color> Tutorial",
+            "description": "Cultivate vines to perform up to 5 attacks, dealing <color=#f9ff4a>Spectro damage</color>. Gain \"Photosynthesis Energy\" for Basic Attack V on hit."
+        },
+        {
+            "title": "Verina: Resonance Skill Tutorial",
+            "description": "Concentrate energy to the front and cause plants to grow rapidly, dealing AoE<color=Light>Spectro damage</color>, and gaining \"Photosynthesis Energy\"."
+        },
+        {
+            "title": "Verina: <color=#d4bf5f>Heavy Attack</color> Tutorial",
+            "description": "Consume STA to dash forward, dealing <color=#f9ff4a>Spectro DMG</color>."
+        },
+        {
+            "title": "Verina: Forte Circuit Tutorial <color=#d4bf5f>Heavy Attack: Starflower Blooms</color>",
+            "description": "When casting <color=Highlight>Heavy Attack</color>, Photosynthesis Energy can be consumed to recover HP for all team members nearby. <color=Highlight>Heavy Attack: Starflower Blooms</color> deals <color=Light>Spectro Damage</color>."
+        },
+        {
+            "description": "Tap <color=Highlight>Basic Attack</color> after using Heavy Attack <color=Highlight>Starflower Blooms</color> to use Mid-air Attack <color=Highlight>Starflower Blooms</color>."
+        },
+        {
+            "title": "Verina: <color=#d4bf5f>Mid-air Attack</color> Tutorial",
+            "description": "Launch consecutive strikes in mid-air, dealing <color=#f9ff4a>Spectro Damage</color>. <color=Highlight>Mid-air Attacks</color> can consume \"Photosynthesis Energy\" to recover Concerto Energy and HP to all Characters on teams nearby."
+        },
+        {
+            "title": "Verina: Resonance Liberation Tutorial",
+            "description": "Promote the rapid growth of the surrounding plants, dealing <color=#f9ff4a>Spectro DMG</color>, restoring HP to all characters on teams nearby, and applying <color=#f4d582>Photosynthesis Mark</color> to the target on hit."
+        },
+        {
+            "title": "Verina: Resonance Liberation Tutorial <color=#d4bf5f>Photosynthesis Mark</color>",
+            "description": "When any nearby Resonator in the party hits a target marked with Photosynthesis Mark, a Coordinated Attack will be launched by Verina to deal <color=#f9ff4a>Spectro DMG</color> and restore HP to the character dealing damage on a team nearby."
+        },
+        {
+            "title": "Verina: <color=#d4bf5f>Mid-Air Heavy Attack</color> Tutorial",
+            "description": "Consume STA to launch a Plunging Attack in mid-air, dealing <color=#f9ff4a>Spectro DMG</color>."
+        }
+    ]
+}

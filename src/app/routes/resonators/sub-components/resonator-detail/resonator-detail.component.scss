@@ -1,0 +1,88 @@
+:host {
+	@keyframes slidedown-icon {
+		0% {
+			transform: translateY(0);
+		}
+
+		50% {
+			transform: translateY(12px);
+		}
+
+		100% {
+			transform: translateY(0);
+		}
+	}
+
+	@keyframes resonatorFadeIn {
+		from {
+			opacity: 0;
+			transform: translateX(5%) translateY(2%);
+		}
+		to {
+			opacity: 1;
+			transform: translateX(0) translateY(0);
+		}
+	}
+
+	.slidedown-icon {
+		animation: slidedown-icon;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+}
+
+::ng-deep .p-breadcrumb {
+	background: var(--surface-ground);
+
+	&.p-component {
+		padding: 0 0 1rem 0;
+	}
+}
+
+.overview {
+	height: 92vh;
+	width: 100%;
+
+	overflow: hidden;
+
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-webkit-user-drag: none;
+
+	.overview__details {
+		align-content: center;
+	}
+
+	.overview__resonator-image {
+		object-fit: contain;
+		object-position: right;
+
+		animation: resonatorFadeIn 1s ease-out;
+	}
+
+	.overview__resonator-title {
+		display: flex;
+		align-content: center;
+	}
+
+	.overview__resonator-attribute {
+		padding: 0.25rem;
+		margin-inline: 0.5rem;
+
+		border: 2px solid var(--surface-200);
+		border-radius: 50%;
+	}
+
+	.overview__resonator-rarity {
+		:not(:last-child) {
+			margin-right: 0.5rem;
+		}
+	}
+}
+
+.sequence-detail__container {
+	margin-top: 1rem;
+
+	padding-inline: 1rem;
+}

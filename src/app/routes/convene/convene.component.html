@@ -108,8 +108,8 @@
 
             <div class="col text-left">
                 @defer (when activeBanner.pity?.fiveStar) {
-                <div class="text-five-star">5★ Pity</div>
-                <span class="text-2xl animated-underline text-five-star"
+                <div class="text-5-star">5★ Pity</div>
+                <span class="text-2xl animated-underline text-5-star"
                     pTooltip="{{80 - (activeBanner.pity?.fiveStar || 0)}} more pulls for a guaranteed 5★"
                     tooltipEvent="focus">
                     {{activeBanner.pity?.fiveStar}}
@@ -124,7 +124,7 @@
                 <div>Astrite</div>
                 <div class="text-2xl animated-underline flex justify-content-center align-content-center"
                     pTooltip="That's {{selectedBannerDurationHistory.length}} wishes!" tooltipEvent="focus">
-                    <img ngSrc="images/icons/T_IconA160_zcpq_UI.png" alt="Astrite icon" height="32" width="32">
+                    <img ngSrc="images/icons/gacha/T_IconA160_zcpq_UI.png" alt="Astrite icon" height="32" width="32">
 
                     {{selectedBannerDurationHistory.length * 160}}
                 </div>
@@ -134,8 +134,8 @@
             </div>
             <div class="col text-right">
                 @defer(when activeBanner.pity?.fourStar) {
-                <div class="text-four-star">4★ Pity</div>
-                <span class="text-2xl animated-underline text-four-star"
+                <div class="text-4-star">4★ Pity</div>
+                <span class="text-2xl animated-underline text-4-star"
                     pTooltip="{{10 - (activeBanner.pity?.fourStar || 0)}} more pulls for a guaranteed 4★"
                     tooltipEvent="focus">
                     {{activeBanner.pity?.fourStar}}
@@ -171,7 +171,7 @@
                         <div class="col-4">
                             <div class="text-lg">
                                 No. of
-                                <span class="text-five-star">5★ pulls</span>
+                                <span class="text-5-star">5★ pulls</span>
                                 <span class="text-2xl ms-2 animated-underline"
                                     pTooltip="You pulled {{activeBanner.stats.fiveStar.count}} 5★" tooltipEvent="focus">
                                     {{activeBanner.stats.fiveStar.count}}
@@ -181,7 +181,7 @@
                         <div class="col-4">
                             <div class="text-lg">
                                 Avg. Pity
-                                <span class="text-five-star">5★</span>
+                                <span class="text-5-star">5★</span>
                                 <span class="text-2xl ms-2 animated-underline"
                                     [class]="getPityClass(5, activeBanner.stats.fiveStar.avgPity)"
                                     pTooltip="You averaged {{activeBanner.stats.fiveStar.avgPity}} pulls to get a 5★"
@@ -194,7 +194,7 @@
                         <div class="col-4">
                             <div class="text-lg">
                                 50-50s won
-                                <span class="text-five-star">5★</span>
+                                <span class="text-5-star">5★</span>
                                 <span class="text-2xl ms-2 animated-underline"
                                     pTooltip="You won fifty-fifty {{activeBanner.stats.fiveStar.wonFiftyFifty}} times"
                                     tooltipEvent="focus">
@@ -204,7 +204,7 @@
                         </div>
                         <div class="col-12">
                             <div class="text-lg">Chance of getting a
-                                <span class="text-five-star">5★</span>
+                                <span class="text-5-star">5★</span>
                             </div>
                             <p-progressBar [value]="activeBanner.stats.fiveStar.qualityPercentage" mode="determinate"
                                 [showValue]="false" styleClass="mt-2"
@@ -218,7 +218,7 @@
                         <div class="col-4">
                             <div class="text-lg">
                                 No. of
-                                <span class="text-four-star">4★ pulls</span>
+                                <span class="text-4-star">4★ pulls</span>
                                 <span class="text-2xl ms-2 animated-underline"
                                     pTooltip="You pulled {{activeBanner.stats.fiveStar.count}} 4★" tooltipEvent="focus">
                                     {{activeBanner.stats.fiveStar.count}}
@@ -228,7 +228,7 @@
                         <div class="col-4">
                             <div class="text-lg">
                                 Avg. Pity
-                                <span class="text-four-star">4★</span>
+                                <span class="text-4-star">4★</span>
                                 <span class="text-2xl ms-2 animated-underline"
                                     [class]="getPityClass(4, activeBanner.stats.fourStar.avgPity)"
                                     pTooltip="You averaged {{activeBanner.stats.fourStar.avgPity}} pulls to get a 4★"
@@ -241,7 +241,7 @@
                         <div class="col-4">
                             <div class="text-lg">
                                 50-50s won
-                                <span class="text-four-star">4★</span>
+                                <span class="text-4-star">4★</span>
                                 <span class="text-2xl ms-2 animated-underline"
                                     pTooltip="You won fifty-fifty {{activeBanner.stats.fourStar.wonFiftyFifty}} times"
                                     tooltipEvent="focus">
@@ -251,7 +251,7 @@
                         </div>
                         <div class="col-12">
                             <div class="text-lg">Chance of getting a
-                                <span class="text-four-star">4★</span>
+                                <span class="text-4-star">4★</span>
                             </div>
                             <p-progressBar [value]="activeBanner.stats.fourStar.qualityPercentage" mode="determinate"
                                 [showValue]="false" styleClass="mt-2"
@@ -350,8 +350,8 @@
                                 <div class="text-2xl animated-underline flex align-content-center"
                                     pTooltip="That's {{selectedBannerDurationHistory.length}} wishes!">
                                     {{selectedBannerDurationHistory.length * 160}}
-                                    <img ngSrc="images/icons/T_IconA160_zcpq_UI.png" alt="Astrite icon" height="32"
-                                        width="32">
+                                    <img ngSrc="images/icons/gacha/T_IconA160_zcpq_UI.png" alt="Astrite icon"
+                                        height="32" width="32">
                                     Astrites
                                 </div>
                                 } @placeholder {
@@ -362,7 +362,7 @@
                                 <div class="text-lg">You {{activeBanner?.isExpired ? 'were': 'are'}} at</div>
 
                                 @defer (when activeBanner?.pity?.fiveStar) {
-                                <div class="text-2xl animated-underline text-five-star"
+                                <div class="text-2xl animated-underline text-5-star"
                                     pTooltip="{{80 - (activeBanner?.pity?.fiveStar || 0)}} more pulls for a guaranteed 5★">
                                     {{activeBanner?.pity?.fiveStar}}
                                     <span class="text-sm text-color">/80</span>
@@ -373,7 +373,7 @@
                                 }
 
                                 @defer(when activeBanner?.pity?.fourStar) {
-                                <div class="text-2xl animated-underline block text-four-star"
+                                <div class="text-2xl animated-underline block text-4-star"
                                     pTooltip="{{10 - (activeBanner?.pity?.fourStar || 0)}} more pulls for a guaranteed 4★">
                                     {{activeBanner?.pity?.fourStar}}
                                     <span class="text-sm text-color">/10</span>
@@ -408,7 +408,7 @@
                                         <div class="col-4">
                                             <div class="text-lg">
                                                 No. of
-                                                <span class="text-five-star">5★ pulls</span>
+                                                <span class="text-5-star">5★ pulls</span>
                                                 <span class="text-2xl ms-2 animated-underline"
                                                     pTooltip="You pulled {{activeBanner!.stats!.fiveStar.count}} 5★">
                                                     {{activeBanner!.stats!.fiveStar.count}}
@@ -418,7 +418,7 @@
                                         <div class="col-4">
                                             <div class="text-lg">
                                                 Avg. Pity
-                                                <span class="text-five-star">5★</span>
+                                                <span class="text-5-star">5★</span>
                                                 <span class="text-2xl ms-2 animated-underline"
                                                     [class]="getPityClass(5, activeBanner!.stats!.fiveStar.avgPity)"
                                                     pTooltip="You averaged {{activeBanner!.stats!.fiveStar.avgPity}} pulls to get a 5★">
@@ -431,7 +431,7 @@
                                         <div class="col-4">
                                             <div class="text-lg">
                                                 50-50s won
-                                                <span class="text-five-star">5★</span>
+                                                <span class="text-5-star">5★</span>
                                                 <span class="text-2xl ms-2 animated-underline"
                                                     pTooltip="You won fifty-fifty {{activeBanner!.stats!.fiveStar.wonFiftyFifty}} times">
                                                     {{activeBanner!.stats!.fiveStar.wonFiftyFifty}}
@@ -440,7 +440,7 @@
                                         </div>
                                         <div class="col-12">
                                             <div class="text-lg">Chance of getting a
-                                                <span class="text-five-star">5★</span>
+                                                <span class="text-5-star">5★</span>
                                             </div>
                                             <p-progressBar [value]="activeBanner!.stats!.fiveStar.qualityPercentage"
                                                 mode="determinate" [showValue]="false" styleClass="mt-2"
@@ -454,7 +454,7 @@
                                         <div class="col-4">
                                             <div class="text-lg">
                                                 No. of
-                                                <span class="text-four-star">4★ pulls</span>
+                                                <span class="text-4-star">4★ pulls</span>
                                                 <span class="text-2xl ms-2 animated-underline"
                                                     pTooltip="You pulled {{activeBanner!.stats!.fiveStar.count}} 4★">
                                                     {{activeBanner!.stats!.fiveStar.count}}
@@ -464,7 +464,7 @@
                                         <div class="col-4">
                                             <div class="text-lg">
                                                 Avg. Pity
-                                                <span class="text-four-star">4★</span>
+                                                <span class="text-4-star">4★</span>
                                                 <span class="text-2xl ms-2 animated-underline"
                                                     [class]="getPityClass(4, activeBanner!.stats!.fourStar.avgPity)"
                                                     pTooltip="You averaged {{activeBanner!.stats!.fourStar.avgPity}} pulls to get a 4★">
@@ -477,7 +477,7 @@
                                         <div class="col-4">
                                             <div class="text-lg">
                                                 50-50s won
-                                                <span class="text-four-star">4★</span>
+                                                <span class="text-4-star">4★</span>
                                                 <span class="text-2xl ms-2 animated-underline"
                                                     pTooltip="You won fifty-fifty {{activeBanner!.stats!.fourStar.wonFiftyFifty}} times">
                                                     {{activeBanner!.stats!.fourStar.wonFiftyFifty}}
@@ -486,7 +486,7 @@
                                         </div>
                                         <div class="col-12">
                                             <div class="text-lg">Chance of getting a
-                                                <span class="text-four-star">4★</span>
+                                                <span class="text-4-star">4★</span>
                                             </div>
                                             <p-progressBar [value]="activeBanner!.stats!.fourStar.qualityPercentage"
                                                 mode="determinate" [showValue]="false" styleClass="mt-2"

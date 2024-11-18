@@ -1,0 +1,54 @@
+{
+    "id": "1605",
+    "name": "Rover-Havoc",
+    "nickname": "Vessel of Sounds",
+    "birthday": "Unknown",
+    "sex": "Unknown",
+    "country": "Unknown",
+    "influence": "Unknown",
+    "bio": "Rover-Havoc",
+    "talent": {
+        "name": "Unknown",
+        "description": "Unknown"
+    },
+    "voice_actors": {
+        "CN": "Unknown",
+        "JP": "Unknown",
+        "EN": "Unknown",
+        "KO": "Unknown"
+    },
+    "combo_teaching": [
+        {
+            "title": "Rover: <color=#d4bf5f>Basic Attack</color> Tutorial",
+            "description": "Perform up to 5 consecutive attacks, dealing <color=Dark>Havoc damage</color>."
+        },
+        {
+            "title": "Rover - <color=#d4bf5f>Mid-air Attack</color> Tutorial",
+            "description": "Consume STA to cast a Plunging Attack mid-air, dealing <color=Dark>Havoc DMG</color>."
+        },
+        {
+            "title": "Rover: <color=#d4bf5f>Heavy Attack</color> Tutorial",
+            "description": "Consume STA to attack the target, dealing <color=Dark>Havoc DMG</color>. Within a short time after casting Heavy Attack, cast Basic Attack to trigger Basic Attack Stage 4."
+        },
+        {
+            "title": "Rover: <color=#d4bf5f>Resonance Skill</color> Tutorial",
+            "description": "Condense sounds into blades, dealing <color=Dark>Havoc damage</color>."
+        },
+        {
+            "title": "Rover: <color=#d4bf5f>Forte Circuit</color> Tutorial",
+            "description": "When \"Umbra\" is full, hold <color=Highlight>Basic Attack</color> to cast <color=Highlight>Devastation</color>, dealing <color=Dark>Havoc DMG</color>, considered as Heavy Attack DMG. Enter <color=Highlight>Dark Surge</color> state after casting <color=Highlight>Devastation</color>. Under this state: <color=Highlight>Basic Attack</color> is replaced with enhanced Basic Attack, performing up to 5 consecutive attacks, dealing <color=Dark>Havoc DMG</color>."
+        },
+        {
+            "title": "Rove: <color=#d4bf5f>Forte Circuit</color> Tutorial: Heavy Attack",
+            "description": "During <color=Highlight>Dark Surge</color>, use <color=Highlight>Basic Attack</color> after casting <color=Highlight>Heavy Attack</color> to cast the Chain Heavy Attack on the target, dealing <color=Dark>Havoc DMG</color>, considered as Heavy Attack DMG. Use <color=Highlight>Basic Attack</color> after casting Chain Heavy Attack to cast enhanced Basic Attack 3."
+        },
+        {
+            "title": "Rover: <color=#d4bf5f>Forte Circuit</color> Tutorial: Resonance Skill",
+            "description": "Condense sounds into blades, dealing <color=Dark>Havoc damage</color>."
+        },
+        {
+            "title": "Rover: <color=#d4bf5f>Resonance Liberation</color> Tutorial",
+            "description": "Gather sounds in the palm to attack targets in the front, dealing <color=Dark>Havoc damage</color>."
+        }
+    ]
+}

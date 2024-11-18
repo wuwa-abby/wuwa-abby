@@ -1,0 +1,58 @@
+{
+    "id": "1602",
+    "name": "Danjin",
+    "nickname": "Scarlet Shade",
+    "birthday": "August 31st",
+    "sex": "Female",
+    "country": "Huanglong",
+    "influence": "Jinzhou",
+    "bio": "August 31st",
+    "talent": {
+        "name": "Scarlet Shade",
+        "description": "Evaluation Basis: [Resonance Assessment 1856-G]\n\nThe exact time of Resonator Danjin's Awakening remains uncertained. Notably, during Resonator Danjin's Awakening event, she exhibited an uncontrollable state of emotional outburst. It is speculated that overwhelming emotions may have catalyzed her awakening.\n\nA Tacet Mark is located on Danjin's upper left arm. Observations have revealed distinct alterations in her physical characteristics after her Awakening. A noteworthy alteration is the reddening of her pupils after exerting her Forte to a certain threshold.\n\nResonator Danjin's frequency fluctuations are stronger than usual, displaying uncommon instantaneous changes that may result in physical damage to her surroundings and any living beings therein when left unhandled.\n\nEmpirical testing has revealed that Danjin's destructive potential surpasses normal people by 78.94%.\nResonance Spectrum Pattern of this Resonator matches that of the human blood. Tests reveal strong Syntony Responses, yet the cause of Danjin's Awakening remains unclear.\n\n\nAnalysis of test samples has revealed a non-convergent Rabelle's Curve with a steep rise in its middle section. Therefore, Danjin is classified as a Mutant Resonator."
+    },
+    "voice_actors": {
+        "CN": "VA: Yi KouJing",
+        "JP": "VA: Okasaki Miho",
+        "EN": "VA: Sophie Colquhoun",
+        "KO": "VA: Lee Hyun Jin"
+    },
+    "combo_teaching": [
+        {
+            "title": "Danjin: <color=#d4bf5f>Basic Attack</color> Tutorial",
+            "description": "Performs up to 3 consecutive strikes, dealing <color=#e649a6>Havoc damage</color>."
+        },
+        {
+            "title": "Danjin: Resonance Skill Tutorial",
+            "description": "Each time damage is dealt by an attack of <color=#f4d582>Crimson Fragment</color>, a proportion of HP is consumed to grant \"Ruby Blossom\"."
+        },
+        {
+            "title": "Danjin: Resonance Skill Tutorial <color=#d4bf5f>Carmine Gleam</color>",
+            "description": "Danjin launches an attack, dealing <color=#e649a6>Havoc damage</color>, and gains \"Ruby Blossom\"."
+        },
+        {
+            "title": "Danjin: Resonance Skill Tutorial <color=#d4bf5f>Crimson Erosion</color>",
+            "description": "Use <color=#f4d582>Crimson Fragment</color> after <color=#f4d582>Basic Attack 2</color>, <color=#f4d582>Vindication</color>, or <color=#f4d582>Dodge Counter</color> to perform up to 2 attacks of Crimson Erosion, dealing <color=#e649a6>Havoc damage</color>, applying <color=#f4d582>Incinerating Will</color> to targets hit, enabling Danjin's DMG dealt to marked targets to increased by 20%."
+        },
+        {
+            "title": "Danjin: Resonance Skill Tutorial <color=#d4bf5f>Sanguine Pulse</color>",
+            "description": "Use <color=#f4d582>Crimson Fragment</color> after <color=#f4d582>Basic Attack 3</color> to perform up to 3 attacks of Sanguine Pulse, dealing <color=#e649a6>Havoc DMG</color>."
+        },
+        {
+            "title": "Danjin <color=#d4bf5f>Heavy Attack</color> Tutorial",
+            "description": "Combine your Forte with the blade and consume STA to launch consecutive strikes, dealing <color=#e649a6>Havoc DMG</color>."
+        },
+        {
+            "title": "Danjin: Forte Circuit Tutorial <color=#d4bf5f>Heavy Attack: Chaoscleave</color>",
+            "description": "Launch a stronger attack when \"Ruby Blossom\" is higher than 60, dealing <color=Dark>Havoc Damage</color> and recovering HP. When \"Ruby Blossom\" is higher than 120, this attack deals further increased damage. Within a while after Heavy Attack: Chaoscleave, use <color=#f4d582>Basic Attack</color> to launch <color=#d4bf5f>Heavy Attack: Scatterbloom</color>, dealing <color=#e649a6>Havoc DMG</color>."
+        },
+        {
+            "title": "Danjin - <color=#d4bf5f>Mid-air Attack</color> Tutorial",
+            "description": "Consume STA to launch a Plunging Attack in mid-air, dealing <color=#e649a6>Havoc DMG</color>."
+        },
+        {
+            "title": "Danjin: Resonance Liberation Tutorial",
+            "description": "Wildly swing the dual blades at the target, performing multiple rapid consecutive attacks, and one Burst Attack, dealing <color=#e649a6>Havoc Damage</color>."
+        }
+    ]
+}

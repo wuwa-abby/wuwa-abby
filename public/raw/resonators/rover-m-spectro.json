@@ -1,0 +1,46 @@
+{
+    "id": "1501",
+    "name": "Rover-Spectro",
+    "nickname": "Vessel of Sounds",
+    "birthday": "Unknown",
+    "sex": "Male",
+    "country": "Unknown",
+    "influence": "Unknown",
+    "bio": "Unknown",
+    "talent": {
+        "name": "Unknown",
+        "description": "Unknown"
+    },
+    "voice_actors": {
+        "CN": "VA: Ma Yang",
+        "JP": "VA: Toshiki Masuda",
+        "EN": "VA: Chase Brown",
+        "KO": "VA: Kim Sin Woo"
+    },
+    "combo_teaching": [
+        {
+            "title": "Rover: <color=#d4bf5f>Basic Attack</color> Tutorial",
+            "description": "Perform 4 consecutive attacks, dealing <color=#f9ff4a>Spectro damage</color>. Gain \"Diminutive Sound\" on hit."
+        },
+        {
+            "title": "Rover: <color=#d4bf5f>Mid-air Attack</color> Tutorial",
+            "description": "Launch a plunging attack in mid-air, dealing <color=#f9ff4a>Spectro damage</color>, and gain \"Diminutive Sound\" on hit."
+        },
+        {
+            "title": "Rover: Heavy Attack Tutorial <color=#d4bf5f>Heavy Attack: Aftertune</color>",
+            "description": "Tap Basic Attack after <color=#f4d582>Basic Attack 3</color> or <color=#f4d582>Heavy Attack</color> at a certain timing to cast Heavy Attack: Resonance, dealing <color=#f9ff4a>Spectro DMG</color>. Use Basic Attack after <color=#f4d582>Heavy Attack: Resonance</color> hits a target to trigger Heavy Attack: Aftertune, dealing <color=#f9ff4a>Spectro DMG</color>, and gain \"Diminutive Sound\" on hit."
+        },
+        {
+            "title": "Rover: <color=#d4bf5f>Resonance Skill</color> Tutorial",
+            "description": "Launch an attack forward, dealing <color=#f9ff4a>Spectro damage</color>."
+        },
+        {
+            "title": "Rover: Forte Circuit Tutorial <color=#d4bf5f>Resonating Spin</color>",
+            "description": "If \"Diminutive Sound\" is more than 50 when casting <color=Highlight>Resonance Skill</color>, consume 50 \"Diminutive Sound\" to cast <color=Highlight>Resonance Skill: Resonating Strikes</color> instead, launching a spinning attack forward, dealing <color=Light>Spectro damage</color>. After <color=Highlight>Resonance Skill: Resonating Strikes</color> ends, tap Basic Attack to trigger Basic Attack <color=Highlight>Resonating Echoes</color>."
+        },
+        {
+            "title": "Rover: <color=#d4bf5f>Resonance Liberation</color> Tutorial",
+            "description": "Concentrate Spectro energy to attack the target area. Cause an explosion at the target area after a short delay, dealing <color=#f9ff4a>Spectro damage</color>."
+        }
+    ]
+}

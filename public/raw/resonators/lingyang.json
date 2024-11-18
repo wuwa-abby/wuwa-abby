@@ -1,0 +1,54 @@
+{
+    "id": "1104",
+    "name": "Lingyang",
+    "nickname": "White Tiger",
+    "birthday": "August 8th",
+    "sex": "Male",
+    "country": "Huanglong",
+    "influence": "Jinzhou",
+    "bio": "August 8th",
+    "talent": {
+        "name": "Frosty Gusto",
+        "description": "Evaluation Basis: [Resonance Assessment 1888-G]\nResonator Lingyang's age and time of Awakening remain uncertain, and he appears to have Awakened a long time ago. Lingyang has endured prolonged exposure to harsh environmental conditions and may have naturally activated his Forte during combat.\n\nLingyang bears a Tacet Mark on his right arm. No Post-Awakening mutations have been noted.\n\nHis physical endurance and strength are exceptional, likely due to his exposure to extreme environments. He displays advanced skills and agility in combat and survival, but lacks experience utilizing his Forte as it is not habitually used. Further evaluation is necessary to determine if proper guidance in Forte usage is needed.\n\nUnder the influence of his Forte, Lingyang's senses are heightened and he can generate an invisible freezing Gusto within a limited area. This also creates a low-temperature field that exerts pressure on nearby enemies. Additionally, Lingyang can influence and motivate the emotions of those near him through his transmitted will.\n\nNo instances of Resonance Spectrum Patterns similar to Lingyang's have been encountered. The cause of his Awakening remains unknown at this time.\n\nAnalysis of test samples has revealed a non-convergent Rabelle's Curve with a gradual rise. Therefore, Lingyang is identified as a Natural Resonator.\n\n<i>\"What? So his 'beast-like' appearance wasn't a result of his Forte? What exactly is this...\"</i>"
+    },
+    "voice_actors": {
+        "CN": "VA: Lucky Fish",
+        "JP": "VA: Hanae Natsuki",
+        "EN": "VA: Aleksander Varadian",
+        "KO": "VA: Lee Sang Ho"
+    },
+    "combo_teaching": [
+        {
+            "title": "Lingyang: <color=#d4bf5f>Basic Attack</color> Tutorial",
+            "description": "Perform up to 5 attacks, dealing <color=Ice>Glacio damage</color>."
+        },
+        {
+            "title": "Lingyang: <color=#d4bf5f>Mid-air Attack</color> Tutorial",
+            "description": "Consume STA to perform a Mid-air Plunging Attack, dealing <color=Ice>Glacio DMG</color>."
+        },
+        {
+            "title": "Lingyang: <color=#d4bf5f>Heavy Attack</color> Tutorial",
+            "description": "Consume STA and deal <color=Ice>Glacio DMG</color>. When Lion's Spirit is not full, cast a <color=Highlight>Basic Attack</color> after a <color=Highlight>Heavy Attack</color> to cast <color=Highlight>Tail Strike</color> to attack the target, dealing <color=Ice>Glacio DMG</color>."
+        },
+        {
+            "title": "Lingyang: Resonance Skill Tutorial",
+            "description": "Cast Resonance Skill to attack your target, dealing <color=Ice>Glacio damage</color>."
+        },
+        {
+            "title": "Lingyang: Resonance Skill Tutorial <color=Highlight>Furious Punches</color>",
+            "description": "When <color=Highlight>Basic Attack 3, 4, or 5</color> hits a target, Resonance Skill <color=Highlight>Ancient Arts</color> is replaced with Resonance Skill <color=Highlight>Furious Punches</color>. Gain Lion's Spirit when Resonance Skill <color=Highlight>Furious Punches</color> is cast. <color=Highlight>Furious Punches</color> do not reset the Basic Attack cycle."
+        },
+        {
+            "title": "Lingyang: <color=#d4bf5f>Gaining Lion's Spirit</color> Tutorial",
+            "description": "When <color=Highlight>Basic Attack 3, 4, or 5</color> hits a target, Resonance Skill <color=Highlight>Ancient Arts</color> is replaced with Resonance Skill <color=Highlight>Furious Punches</color>. Gain Lion's Spirit when Resonance Skill <color=Highlight>Furious Punches</color> is cast."
+        },
+        {
+            "title": "Lingyang: <color=#d4bf5f>Forte Circuit</color> Tutorial",
+            "description": "When Lion's Spirit is full, use <color=Highlight>Heavy Attack</color> to cast <color=Highlight>Glorious Plunge</color> to attack the target, dealing <color=Ice>Glacio damage</color>, and enter the <color=Highlight>Striding Lion</color> state, gaining the ability to attack in the air. When Lion's Spirit is not full, use <color=Highlight>Basic Attack</color> after <color=Highlight>Heavy Attack</color> to cast <color=Highlight>Tail Strike</color> to attack the target, dealing <color=Ice>Glacio damage</color>."
+        },
+        {
+            "title": "Lingyang: <color=#d4bf5f>Resonance Liberation</color> Tutorial",
+            "description": "Attack the target, dealing <color=Ice>Glacio damage</color>, and receive the blessing of <color=Highlight>Lion's Vigor</color>. During Lion's Vigor, the duration of Forte Circuit <color=Highlight>Striding Lion</color> is extended to a maximum of 10s. Cast <color=Highlight>Basic Attack</color> after <color=Highlight>Strive: Lion's Vigor</color> if Lion's Spirit is full to enter the <color=Highlight>Striding Lion</color> state."
+        }
+    ]
+}

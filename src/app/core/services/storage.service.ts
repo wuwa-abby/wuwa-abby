@@ -1,11 +1,11 @@
 import { Inject, Injectable, PLATFORM_ID } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
 
 import Dexie, { Table } from 'dexie';
 
 import { GachaMemoryTable } from '../model/gacha-history.table';
 import { GeneralMemoryTable } from '../model/general-data.table';
 import { UserProfileTable } from '../model/user-profile.table';
-import { isPlatformBrowser } from '@angular/common';
 
 @Injectable({
 	providedIn: 'root',
@@ -15,7 +15,7 @@ export class StorageService extends Dexie {
 		super('wubby-memory');
 		this.version(1).stores({
 			gacha:
-				'++id,cardPoolType,cardPoolId,qualityLevel,resourceType,name,count,time,pity,profileId',
+				'++id,resourceId,cardPoolType,cardPoolId,qualityLevel,resourceType,name,count,time,pity,profileId,isCustom',
 			memory: 'key,value',
 			profiles:
 				'++id,profileName,profileImage,inGameID,server,lastUpdateDate,isActive',

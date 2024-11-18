@@ -1,0 +1,46 @@
+{
+    "id": "1103",
+    "name": "Baizhi",
+    "nickname": "Healing You'tan",
+    "birthday": "September 10th",
+    "sex": "Female",
+    "country": "Huanglong",
+    "influence": "Jinzhou",
+    "bio": "September 10th",
+    "talent": {
+        "name": "Healing You'tan",
+        "description": "Evaluation Basis: [Resonance Assessment 2190-G]\n\nResonator Baizhi experienced her Awakening four years ago, after being exposed to a strong Remnant Energy source one year prior. This exposure caused the activation of the corresponding Remnant frequencies within her. According to Baizhi's recounts, she experienced a strong urge to revive a teammate during her Awakening. As a result, the aforementioned frequencies manifested as a Remnant Creature that now serves as her companion.\n\nResonator Baizhi's Tacet Mark is located on the anterior side of her right thigh. No significant physical alterations after Awakening have been observed. \n\nHowever, when exerting her Forte, the Tacet Mark emits a faint white glow with the advent of the above Remnant Creature. The creature is translucent white in color and resembles the petals of Epiphyllum. It is unable to vocalize in human language, but can communicate with Baizhi through telepathy.\n\nResonator Baizhi cannot directly utilize her Forte, but she can leverage the extremely low temperature and her Remnant Creature's healing abilities to treat injuries in her vicinity.\n\nResonator Baizhi's Resonance Spectrum Pattern does not resemble any known frequencies. However, it shows a certain level of similarity with the fluctuations of Remnant Energy, and it possesses a strong Syntony Response with \"You'tan\", her Remnant Creature. Despite these connections, the cause of Baizhi's Awakening remains unclear without adequate theoretical evidence.\n\nAnalysis of test samples has revealed a non-convergent Rabelle's Curve with a gradual increase followed by steep rise in its middle section. Resonator Baizhi is thus classified as a Mutant Resonator with a Dormant Period."
+    },
+    "voice_actors": {
+        "CN": "VA: Chen TingTing",
+        "JP": "VA: Seto Asami",
+        "EN": "VA: Samantha Dakin",
+        "KO": "VA: Sung Ye Won"
+    },
+    "combo_teaching": [
+        {
+            "title": "Baizhi: <color=#d4bf5f>Basic Attack</color> Tutorial",
+            "description": "Command You'tan to perform up to 4 consecutive attacks, dealing <color=#1891e7ff>Glacio damage</color>."
+        },
+        {
+            "title": "Baizhi: <color=#d4bf5f>Heavy Attack</color> Tutorial",
+            "description": "<color=#ffd12f>Hold</color> {0} to open the Guidebook in the wheel menu. You can quickly jump to various gameplay activities via <color=#ffd12f>Guidebook</color>."
+        },
+        {
+            "title": "Baizhi: <color=#d4bf5f>Mid-air Attack</color> Tutorial",
+            "description": "Consume STA to summon You'tan to perform a Mid-air Plunging Attack, dealing <color=#1891e7ff>Glacio DMG</color>."
+        },
+        {
+            "title": "Baizhi: Resonance Skill Tutorial",
+            "description": "Call You'tan to deal <color=#1891e7ff>Glacio damage</color> and restore HP to all characters on the nearby team."
+        },
+        {
+            "title": "Baizhi: Forte Circuit Tutorial <color=#d4bf5f>Concentration</color>",
+            "description": "Gain 1 Concentration when <color=Highlight>Basic Attacks</color> hit the target. Cast <color=Highlight>Heavy Attack</color> or Resonance Skill <color=Highlight>Emergency Plan</color> to consume all Concentration and restore HP for 1 extra time for every 1 Concentration consumed. Restoration happens every 2s."
+        },
+        {
+            "title": "Baizhi: Resonance Liberation Tutorial",
+            "description": "Summon You'tan to instantly restore HP to all Characters on a team nearby and generate 4 <color=Highlight>Remnant Entities</color> in succession. Remnant Entities will follow the active character on the team, automatically attack the target every 2.5 seconds, dealing <color=Ice>Glacio damage</color> when hitting the target, and restoring HP to all characters in the nearby team within the range of the attack."
+        }
+    ]
+}

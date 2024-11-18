@@ -1,0 +1,165 @@
+::ng-deep .p-card-title.type-picker {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+
+	margin-bottom: 0;
+	padding-bottom: 1.5rem;
+
+	background: linear-gradient(
+		180deg,
+		transparent 0%,
+		transparent 50%,
+		var(--surface-ground) 100%
+	);
+}
+
+::ng-deep .p-card {
+	overflow: hidden;
+}
+
+.item-choice__container {
+	display: flex;
+	flex-direction: row;
+}
+
+.item-choice__container__item {
+	height: 40vh;
+	min-height: 20rem;
+
+	&:hover {
+		.item-choice__background-img {
+			scale: 1.2;
+			transition: scale 0.5s ease-out;
+		}
+	}
+}
+
+.item-choice__background-img {
+	margin-top: 1rem;
+	z-index: 1;
+	object-fit: contain;
+
+	opacity: 0;
+	transition: opacity 0.5s, scale 0.5s;
+
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-webkit-user-drag: none;
+}
+
+.vignette {
+	margin: 0;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	// set the background color to var(--surface-ground)  gradient to transparent bottom to top
+	background: linear-gradient(
+		180deg,
+		var(--surface-ground) 0%,
+		transparent 100%
+	);
+}
+
+::ng-deep .resonator__container {
+	&:hover {
+		.resonator__image {
+			transform: scale(1.55) translateY(30px);
+
+			background: linear-gradient(transparent, var(--surface-200));
+
+			transition: transform 0.5s, scale 0.3s, background 0.3s;
+			transition-delay: background 0.5s;
+		}
+
+		.resonator__name {
+			transform: scale(1.2) translateY(-15px);
+			transition: scale 0.5s, transform 0.5s;
+		}
+
+		.resonator__obtained-at {
+			visibility: visible;
+			opacity: 1;
+
+			transform: translateY(85%);
+
+			transition: visibility 0.5s, opacity 0.5s, transform 0.5s;
+
+			transition-delay: 0.5s;
+		}
+
+		.resonator__date {
+			opacity: 1;
+			transition: opacity 0.5s;
+		}
+
+		.resonator__element-img {
+			top: 0.5rem;
+
+			visibility: visible;
+			opacity: 1;
+
+			transform: translateY(0);
+			transition: visibility 0.5s, opacity 0.5s, transform 0.5s;
+		}
+	}
+}
+
+.resonator__image-container {
+	position: relative;
+	overflow: hidden;
+}
+
+.resonator__image {
+	transition: transform 0.5s, scale 0.3s, background 0.3s;
+
+	object-fit: contain;
+
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-webkit-user-drag: none;
+}
+
+.resonator__image-fade {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 14px;
+	width: 100%;
+	background: linear-gradient(transparent, var(--surface-ground));
+}
+
+.resonator__element-img {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.5rem;
+
+	padding: 0.1rem;
+	border-radius: 50%;
+	background: var(--surface-card);
+	border: 2px solid var(--surface-200);
+
+	width: auto;
+
+	object-fit: contain;
+
+	visibility: hidden;
+	opacity: 0;
+
+	transform: translateY(-250%);
+	transition: visibility 0.5s, opacity 0.5s, transform 0.5s;
+}
+
+.resonator__name {
+	text-align: center;
+
+	transition: scale 0.5s, transform 0.5s;
+}

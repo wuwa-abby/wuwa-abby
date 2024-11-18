@@ -1,0 +1,49 @@
+{
+    "id": "1204",
+    "name": "Mortefi",
+    "nickname": "Dragon's Breath",
+    "birthday": "November 6th",
+    "sex": "Male",
+    "country": "New Federation",
+    "influence": "Jinzhou",
+    "bio": "November 6th",
+    "talent": {
+        "name": "Dragon's Breath",
+        "description": "Evaluation Basis: [Resonance Assessment 2183-G]\n\nAccording to Resonator Mortefi's reports, indications of his Awakening began to manifest during his youth. His actual Awakening was accompanied by a surge of intense anger.\n\nMortefi's Tacet Mark is located on his right chest. When Mortefi's Forte is activated, crystalline matter in the shape of dragon scales materializes around his Tacet Mark. These scales burn intensely as he harnesses his power.\n\nResonator Mortefi demonstrates the ability to generate and manipulate fire through the focused concentration of heat. The intensity of the flames produced is closely linked to Mortefi's emotional state. Extensive experimentation has revealed that the fire is a tangible manifestation of Mortefi's accumulated negative emotions over a certain threshold.\n\nThe Resonance Spectrum Pattern of Mortefi has been observed to align closely with that of the Dragonkin, a species that is currently declared extinct. Due to the unavailability of living Dragonkin for Syntony tests, it is currently not possible to empirically confirm the cause of Mortefi's Awakening.\n\nAnalysis of test samples has revealed a non-convergent Rabelle's Curve, with a steep rise in its middle section. Resonator Mortefi is thereby classified as a Mutant Resonator."
+    },
+    "voice_actors": {
+        "CN": "VA: Liu YiJia",
+        "JP": "VA: Miura Katsuyuki",
+        "EN": "VA: Joseph May",
+        "KO": "VA: Kim Da Ol"
+    },
+    "combo_teaching": [
+        {
+            "title": "Mortefi: <color=#d4bf5f>Basic Attack</color> Tutorial",
+            "description": "Perform up to 4 consecutive attacks with pistols and flame on the target, dealing <color=#e15226ff>Fusion damage</color>."
+        },
+        {
+            "title": "Mortefi: Resonance Skill Tutorial",
+            "description": "Launch a high-speed flame forward, dealing <color=#e15226ff>Fusion damage</color>. Within a period after casting <color=#f4d582>Resonance Skill: Passionate Variation</color>, gain extra \"Annoyance\" for each Normal Attack on hit."
+        },
+        {
+            "title": "Mortefi: Forte Circuit Tutorial <color=#d4bf5f>Resonance Skill: Fury Fugue</color>",
+            "description": "When \"Annoyance\" reaches 100, <color=#f4d582>Fury Fugue</color> will be available, which consumes all \"Annoyance\" to launch flaming lightning, dealing <color=#e15226ff>Fusion DMG</color>, considered as Resonance Skill DMG."
+        },
+        {
+            "description": "Hold Basic Attack to start aiming.\nAfter the charge is completed, attack and deal <color=#e15226ff>Fusion damage</color>."
+        },
+        {
+            "title": "Mortefi: <color=#d4bf5f>Heavy Attack</color> Tutorial",
+            "description": "Hold Basic Attack to start aiming.\nAfter the charge is completed, attack and deal <color=#e15226ff>Fusion damage</color>."
+        },
+        {
+            "title": "Mortefi: <color=#d4bf5f>Mid-air Attack</color> Tutorial",
+            "description": "Continuously consume STA to shoot multiple shots at the target in the air, dealing <color=#e15226ff>Fusion DMG</color>."
+        },
+        {
+            "title": "Mortefi: Resonance Liberation Tutorial",
+            "description": "Deal <color=#e15226ff>Fusion DMG</color> and apply <color=#f4d582>Burning Rhapsody</color> to all Resonators on the team. During <color=#d4bf5f>Burning Rhapsody</color>, the Resonator's Basic Attack and Heavy Attack on hit trigger a Coordinated Attack, dealing <color=#e15226ff>Fusion DMG</color>."
+        }
+    ]
+}

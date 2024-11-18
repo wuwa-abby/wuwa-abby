@@ -1,0 +1,74 @@
+<div class="overview grid">
+    <div class="overview__details col-12 md:col-6">
+        <p-breadcrumb styleClass="fadein animation-duration-1000 max-w-full" [model]="breadcrumbs" />
+
+        <ng-container *ngIf="resonator; else resonatorErrorTpl">
+            <ng-container *ngTemplateOutlet="resonatorDetailTpl"></ng-container>
+        </ng-container>
+    </div>
+    <div class="col-12 md:col-6 position-relative">
+        @if (resonator) {
+        <img class="overview__resonator-image position-absolute bottom-0 right-0 d-none md:block"
+            [ngSrc]="'images/characters/T_IconRole_Pile_' + resonator.imageName + '_UI.png'" [alt]="resonator.name" fill
+            priority>
+        } @else {
+        <img class="overview__resonator-image position-absolute bottom-0 right-0 d-none md:block"
+            ngSrc="images/characters/T_IconRole_Pile_zhujue_UI.png" alt="Rover" fill priority>
+        }
+    </div>
+</div>
+
+<div class="sequence-detail__container surface-card">
+    aaaaaa
+</div>
+
+<ng-template #resonatorErrorTpl>
+    <h2 class="text-2xl mb-0 text-danger user-select-none">Error {{resonatorStatus}}</h2>
+    <h1 class="text-6xl mt-0">{{resonatorError}}</h1>
+
+    <div class="row mt-4">
+        <div class="col-8 xl:col-4">
+            <p-button label="Report Issue" icon="pi pi-github" iconPos="right" styleClass="w-full" />
+        </div>
+        <div class="col-4 xl:col-2">
+            <p-button label="Go Back" icon="pi pi-arrow-left" iconPos="right" styleClass="w-full" severity="secondary"
+                routerLink="../.." />
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #resonatorDetailTpl>
+    @if(resonator){
+    <h1 class="text-6xl overview__resonator-title my-0">
+        {{resonator.name}}
+        <img class="overview__resonator-attribute my-auto"
+            [ngSrc]="'images/elements/T_IconElement' + resonator.attribute + '.png'" [alt]="resonator.attribute"
+            height="48" width="48" [pTooltip]="resonator.attribute" tooltipPosition="bottom" />
+    </h1>
+    <p class="overview__resonator-rarity my-0 text-{{resonator.rarity}}-star">
+        @defer(on timer(500ms)) {
+        <ng-container *ngFor="let i of [1,2,3,4,5]">
+            <i class="pi pi-star-fill fadein animation-duration-500" *ngIf="i <= resonator.rarity"></i>
+        </ng-container>
+        }
+        @defer(on timer(1s)) {
+        <span class="text-500 fadein animation-duration-400" *ngIf="resonator.obtained"
+            pTooltip="'Last obtained on'{{resonator.lastObtainedOn | date:'short'}}">Obtained</span>
+        }
+    </p>
+    <p class="text-lg w-75">{{resonator.bio}}</p>
+
+    @defer(on timer(3s)) {
+    <div class="text-center lg:w-75 slidedown-icon d-none md:d-block">
+        <div class="block">More Info</div>
+        <i class="pi pi-arrow-down"></i>
+    </div>
+    }
+    @placeholder {
+    <div class="text-center lg:w-75 fadein animation-duration-1000 d-none md:d-block">
+        <div class="block">More Info</div>
+        <i class="pi pi-arrow-down"></i>
+    </div>
+    }
+    }
+</ng-template>

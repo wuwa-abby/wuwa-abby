@@ -1,14 +1,14 @@
 {
   "name": "wuwa-history",
-  "version": "0.0.0",
+  "version": "0.2.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "build:serverless": "ng build --configuration serverless",
-    "watch": "ng build --watch --configuration development",
+    "start": "npm run prebuild && ng serve",
+    "build": "npm run rebuild && ng build --configuration production",
+    "build:serverless": "npm run rebuild && ng build --configuration serverless",
+    "watch": "npm run rebuild && ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:wuwa-history": "node dist/wuwa-history/server/server.mjs"
+    "serve:dist": "node dist/wuwa-history/server/server.mjs",
+    "prebuild": "node ./scripts/prebuild.mjs"
   },
   "private": true,
   "dependencies": {

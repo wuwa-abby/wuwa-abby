@@ -1,0 +1,54 @@
+{
+    "id": "1404",
+    "name": "Jiyan",
+    "nickname": "Windborne Rider",
+    "birthday": "December 14th",
+    "sex": "Male",
+    "country": "Huanglong",
+    "influence": "Jinzhou",
+    "bio": "December 14th",
+    "talent": {
+        "name": "Windborne Rider",
+        "description": "Evaluation Basis: [Resonance Assessment 2141-G]\n\nResonator Jiyan's Forte-Awakening was observed at Camp Overwatch located in Desorock Highland. This event was characterized by the accumulation of air currents around his body, forming a distinctive lance.\n\nJiyan bears a distinctive Tacet Mark situated atop his dorsal ridge. Post-Awakening observations found some growths that resemble Loong scale on his left jaw. No indications of progressive expansion have been detected.\n\nResonator Jiyan possesses the ability to manipulate wind energy, which he can channel into a <ano=Teal Dragon>\"Qingloong\"</ano> that aids him in battle. Additionally, he possesses exceptional perception and leadership skills, utilizing his connection to the winds to gather and analyze battlefield information with astonishing accuracy. Empirical testing has shown an impressive accuracy rate of 99.12% in evaluating dynamic situations.\nJiyan's Resonance Spectrum Pattern shows no resemblance to known samples. The cause of his Awakening remains unknown.\n\nAnalysis of test samples has revealed a non-convergent Rabelle's Curve with a steep rise in its middle section. Resonator Jiyan is thereby classified as a Mutant Resonator."
+    },
+    "voice_actors": {
+        "CN": "VA: Sun Ye",
+        "JP": "VA: Ono Yuki",
+        "EN": "VA: Alex Jordan",
+        "KO": "VA: Nam Doh Hyeong"
+    },
+    "combo_teaching": [
+        {
+            "title": "Jiyan: <color=#d4bf5f>Basic Attack</color> Tutorial",
+            "description": "Perform up to 5 consecutive attacks, dealing <color=#46c3d4ff>Aero DMG</color>."
+        },
+        {
+            "title": "Jiyan: Resonance Skill Tutorial - <color=#f4d582>Windquller</color> Ground",
+            "description": "Dash forward, dealing <color=#46c3d4ff>Aero DMG</color> to targets on the path. This can be cast in mid-air."
+        },
+        {
+            "title": "Jiyan: Resonance Skill Tutorial (Cast in mid-air)",
+            "description": "Use Basic Attack after casting <color=#f4d582>Windqueller</color> in the air to cast aerial attacks, dealing <color=#46c3d4ff>Aero DMG</color>."
+        },
+        {
+            "title": "Jiyan: Heavy Attack Tutorial <color=#d4bf5f>Heavy Attack: Abyssal Slash</color>",
+            "description": "Release the Basic Attack button during the <color=#f4d582>Heavy Attack</color> to cast Abyssal Slash after the Heavy Attack ends, dealing <color=#46c3d4ff>Aero DMG</color>."
+        },
+        {
+            "title": "Jiyan: Heavy Attack Tutorial <color=#d4bf5f>Heavy Attack: Windborne Strike</color>",
+            "description": "Hold Basic Attack during <color=#f4d582>Heavy Attack</color> to cast Windborne Strike after the Heavy Attack ends, dealing <color=#46c3d4ff>Aero DMG</color>. Use Basic Attack after <color=#f4d582>Heavy Attack: Windborne Strike</color> to perform aerial attacks, dealing <color=#46c3d4ff>Aero DMG</color>."
+        },
+        {
+            "title": "Jiyan: <color=#d4bf5f>Mid-air Attack</color> Tutorial",
+            "description": "Consume STA and throw a spear from the air to stab the ground, dealing <color=#46c3d4ff>Aero DMG</color>. After the spear stabs the ground, use <color=#f4d582>Basic Attack</color> to perform 1 additional attack, dealing <color=#46c3d4ff>Aero DMG</color>."
+        },
+        {
+            "title": "Jiyan: Resonance Liberation Tutorial",
+            "description": "Enter <color=#f4d582>Qingloong Mode</color> after casting Emerald Storm: Prelude. In <color=#f4d582>Qingloong Mode</color>, <color=#f4d582>Basic Attack</color> and <color=#f4d582>Heavy Attack</color> are replaced with Lance of Qingloong, performing up to 3 consecutive strikes, dealing <color=#46c3d4ff>Aero DMG</color>, considered as Heavy Attack DMG."
+        },
+        {
+            "title": "Jiyan: Forte Circuit Tutorial <color=#d4bf5f>Emerald Storm: Finale</color>",
+            "description": "If \"Resolve\" is more than 30 when casting <color=#f4d582>Resonance Liberation: Emerald Storm: Prelude</color>, consume 30 \"Resolve\" to cast Emerald Storm: Finale instead, dealing <color=#46c3d4ff>Aero DMG</color>, considered as Heavy Attack DMG. Can be cast mid-air."
+        }
+    ]
+}

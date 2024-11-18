@@ -1,0 +1,50 @@
+{
+    "id": "1405",
+    "name": "Jianxin",
+    "nickname": "Jianxin's Nickname",
+    "birthday": "April 6th",
+    "sex": "Female",
+    "country": "Huanglong",
+    "influence": "Jinzhou",
+    "bio": "Jianxin",
+    "talent": {
+        "name": "Cleansing Reflections",
+        "description": "Evaluation Basis: [Resonance Assessment 1514-G]\n\nResonator Jianxin experienced her Awakening 3 years ago. The Awakening was not triggered by any event and thus is observed as a Natural Awakening.\n\nResonator Jianxin's Tacet Mark is located on her left shoulder. Post-Awakening observations found no notable physical change.\n\nJianxin's Forte allows her to enhance her attacks by manipulating airflow and creating force fields. Evaluation revealed a strike velocity of 340m/s. Details regarding the force fields remain inconclusive. Overall, Jianxin's Forte exhibits potential for further development.\n\nResonator Jianxin's Resonance Spectrum Pattern has a 5% similarity to over 10 objects and no significant similarities above 20% have been found. The source of Awakening cannot be determined at this time.\n\nAnalysis of test samples has revealed a non-convergent Rabelle's Curve with a stable rise. Occasional fluctuations within normal range have been detected. Therefore, Jianxin is identified as a Natural Resonator."
+    },
+    "voice_actors": {
+        "CN": "VA: Elise Zhang",
+        "JP": "VA: Anzai Chika",
+        "EN": "VA: Ioanna Kimbook",
+        "KO": "VA: Lee Eun Jo"
+    },
+    "combo_teaching": [
+        {
+            "title": "Jianxin: <color=#d4bf5f>Basic Attack</color> Tutorial",
+            "description": "Perform up to 4 attacks with vigorous martial arts, dealing <color=#46c3d4ff>Aero DMG</color>. <color=#f4d582>Normal Attacks</color> grant \"Chi\" on hit."
+        },
+        {
+            "title": "Jianxin: <color=#d4bf5f>Mid-air Attack</color> Tutorial",
+            "description": "Consume STA to perform a plunging kick, dealing <color=#46c3d4ff>Aero DMG</color>."
+        },
+        {
+            "title": "Jianxin: <color=#d4bf5f>Heavy Attack</color> Tutorial",
+            "description": "Consume STA to attack the target, dealing <color=Wind>Aero DMG</color>. Gain \"Chi\" on hit."
+        },
+        {
+            "title": "Jianxin: <color=#d4bf5f>Resonance Skill</color> Tutorial",
+            "description": "Hold <color=Highlight>Resonance Skill</color> to take a stance and get ready to parry the enemy's next attack, and gain \"Chi\". If an enemy attack is parried, ignore the damage of that attack, counterattack to deal <color=#46c3d4ff>Aero DMG</color>, and gain \"Chi\". Interrupt the stance and launch an attack to deal <color=#46c3d4ff>Aero DMG</color> by releasing the Resonance Skill button, and gain \"Chi\"."
+        },
+        {
+            "title": "Jianxin: <color=#d4bf5f>Resonance Circuit</color> Tutorial",
+            "description": "When \"Chi\" is stacked to its max, cast <color=Highlight>Heavy Attack</color> to start charging. Deal <color=Wind>Aero DMG</color> to a nearby area and gradually consume \"Chi\". For each stage progressed, gain a temporary shield and deal <color=Wind>Aero DMG</color>, progressing up to <color=Highlight>Major Zhoutian: Outer</color>. Release <color=Highlight>Basic Attack</color> to interrupt the charging, and cast an attack according to the current stage.\n<color=Highlight>Prior to Minor Zhoutian</color>: Obtain a level-1 shield, and cast <color=Highlight>Pushing Punch</color>, dealing <color=Wind>Aero DMG</color> to enemies in front when the charging is interrupted."
+        },
+        {
+            "title": "Jianxin: <color=#d4bf5f>Resonance Circuit</color> Tutorial",
+            "description": "<color=Highlight>Major Zhoutian: Outer</color>: Obtain a level-4 shield and cast <color=Highlight>Shock</color> to deal <color=Wind>Aero DMG</color> to the surrounding targets."
+        },
+        {
+            "title": "Jianxin: <color=#d4bf5f>Resonance Liberation</color> Tutorial",
+            "description": "Create a strong wind field, continuously pulling targets within the field to the center and dealing <color=Wind>Aero DMG</color>. When the wind field disappears, deal <color=Wind>Aero DMG</color> to all targets within the range again."
+        }
+    ]
+}

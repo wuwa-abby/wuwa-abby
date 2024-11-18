@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import '__colors.scss';
+
 ::-webkit-scrollbar {
 	width: 18px;
 }
@@ -37,30 +39,68 @@ code:not(.nostyle) {
 	hyphens: auto;
 }
 
-.text-five-star {
-	color: darken(#fbd856, 20%) !important;
-
-	[data-bs-theme='dark'] & {
-		color: #fbd856 !important;
-	}
+.text-5-star {
+	color: $kuro-yellow !important;
 }
 
-.text-four-star {
-	color: darken(#8c6eb2, 10%) !important;
+.text-4-star {
+	color: $kuro-purple !important;
+}
 
-	[data-bs-theme='dark'] & {
-		color: #8c6eb2 !important;
-	}
+.text-3-star {
+	color: $kuro-blue !important;
+}
+
+.border-5-star {
+	border-bottom: 0.1rem solid $kuro-yellow !important;
+	border-color: $kuro-yellow !important;
+	box-shadow: 0 0 0.25rem 0 color-mix(in srgb, $kuro-yellow, transparent 25%);
+}
+
+.border-4-star {
+	border-bottom: 0.1rem solid $kuro-purple !important;
+	border-color: $kuro-purple !important;
+	box-shadow: 0 0 0.25rem 0 color-mix(in srgb, $kuro-purple, transparent 25%);
+}
+
+.border-3-star {
+	border-bottom: 0.1rem solid $kuro-blue !important;
+	border-color: $kuro-blue !important;
+	box-shadow: 0 0 0.25rem 0 color-mix(in srgb, $kuro-blue, transparent 25%);
 }
 
 .hard-pity {
-	color: var(--red-500);
+	color: var(--red-500) !important;
 }
 
 .soft-pity {
-	color: var(--yellow-500);
+	color: var(--yellow-500) !important;
 }
 
 .no-pity {
-	color: var(--green-500);
+	color: var(--green-500) !important;
+}
+
+.border-aero {
+	border-color: var(--teal-500) !important;
+}
+
+.border-fusion {
+	border-color: var(--orange-500) !important;
+}
+
+.border-glacio {
+	border-color: var(--cyan-500) !important;
+}
+
+.border-havoc {
+	border-color: var(--pink-500) !important;
+}
+
+.border-electro {
+	border-color: var(--purple-500) !important;
+}
+
+.border-spectro {
+	border-color: var(--yellow-500) !important;
 }

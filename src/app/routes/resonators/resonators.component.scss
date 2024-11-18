@@ -1,0 +1,126 @@
+::ng-deep .resonator__container {
+	&:hover {
+		.resonator__image {
+			transform: scale(1.55) translateY(30px);
+
+			background: linear-gradient(transparent, var(--surface-200));
+
+			transition: transform 0.5s, scale 0.3s, background 0.3s;
+			transition-delay: background 0.5s;
+		}
+
+		.resonator__name {
+			transform: scale(1.2) translateY(-15px);
+			transition: scale 0.5s, transform 0.5s;
+		}
+
+		.resonator__obtained-at {
+			visibility: visible;
+			opacity: 1;
+
+			transform: translateY(85%);
+
+			transition: visibility 0.5s, opacity 0.5s, transform 0.5s;
+
+			transition-delay: 0.5s;
+		}
+
+		.resonator__date {
+			opacity: 1;
+			transition: opacity 0.5s;
+		}
+
+		.resonator__element-img {
+			top: 0.5rem;
+
+			visibility: visible;
+			opacity: 1;
+
+			transform: translateY(0);
+			transition: visibility 0.5s, opacity 0.5s, transform 0.5s;
+		}
+	}
+}
+
+.resonator__image-container {
+	position: relative;
+	overflow: hidden;
+}
+
+.resonator__image {
+	transition: transform 0.5s, scale 0.3s, background 0.3s;
+
+	object-fit: contain;
+
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-webkit-user-drag: none;
+
+	&:not(.obtained) {
+		filter: grayscale(100%);
+	}
+}
+
+.resonator__image-fade {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 14px;
+	width: 100%;
+	background: linear-gradient(transparent, var(--surface-ground));
+}
+
+.resonator__element-img {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.5rem;
+
+	padding: 0.1rem;
+	border-radius: 50%;
+	background: var(--surface-card);
+	border: 2px solid var(--surface-200);
+
+	width: auto;
+
+	object-fit: contain;
+
+	visibility: hidden;
+	opacity: 0;
+
+	transform: translateY(-250%);
+	transition: visibility 0.5s, opacity 0.5s, transform 0.5s;
+}
+
+.resonator__name {
+	text-align: center;
+
+	transition: scale 0.5s, transform 0.5s;
+}
+
+.resonator__obtained-at {
+	position: absolute;
+
+	visibility: hidden;
+	opacity: 0;
+
+	bottom: 0;
+	left: 0;
+	width: 100%;
+
+	text-align: center;
+
+	transform: translateY(250%);
+	transition: visibility 0.5s, opacity 0.5s, transform 0.5s;
+}
+
+.resonator__date {
+	text-align: center;
+	opacity: 0;
+
+	transition: opacity 0.5s;
+}
+
+.filter__weapon-icon {
+	mix-blend-mode: difference;
+}

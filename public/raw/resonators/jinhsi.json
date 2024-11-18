@@ -1,0 +1,62 @@
+{
+    "id": "1304",
+    "name": "Jinhsi",
+    "nickname": "Jinhsi's Title",
+    "birthday": "March 6th",
+    "sex": "Female",
+    "country": "Huanglong",
+    "influence": "Jinzhou",
+    "bio": "Jinhsi",
+    "talent": {
+        "name": "Thawborn Renewal",
+        "description": "Evaluation Basis: [Resonance Assessment 2100-G] \n\nThe exact timing of Resonator Jinhsi's Awakening remains unclear. Signs of her Awakening manifested early in her life, establishing a profound resonance with Sentinel Jué. \n\nPositioned at the midpoint of her back, Jinhsi's Tacet Mark is a distinct feature. When activating her Resonance Ability, crystalline formations resembling Loong horns materialize above her head. \n\nThrough her unique gift, Jinhsi can manipulate light to create holographic projections mirroring Sentinel Jué, showcasing power comparable to the Sentinel's own abilities.\n\nObservational data points towards the exceptional growth capacity of the subject's Resonance Ability. The pinnacle of this ability hints at the remarkable prospect of time shifting.\n\nDetailed analysis of Jinhsi's Resonance Spectrum Pattern has unveiled a striking resemblance to that of Sentinel Jué. Rigorous testing has uncovered strong Syntony reactions. Nevertheless, the precise trigger behind Jinhsi's Awakening remains enigmatic due to the Sentinel's special position.\n\nAnalysis of test samples has revealed a non-convergent Rabelle's Curve with a noticeable periodic waveform, which classifies Jinhsi as a Congenital Resonator."
+    },
+    "voice_actors": {
+        "CN": "VA: Jiang Yue",
+        "JP": "VA: Yoshino Aoyama",
+        "EN": "VA: Anna Devlin",
+        "KO": "VA: Park Ha Jin"
+    },
+    "combo_teaching": [
+        {
+            "title": "Jinhsi: <color=#d4bf5f>Basic Attack</color> Tutorial",
+            "description": "Perform up to 4 consecutive attacks, dealing <color=Light>Spectro DMG</color>."
+        },
+        {
+            "title": "Jinhsi: <color=#d4bf5f>Mid-air Attack</color> Tutorial",
+            "description": "Consume STA to perform a Plunging Attack, dealing <color=Light>Spectro DMG</color>."
+        },
+        {
+            "title": "Jinhsi: <color=#d4bf5f>Heavy Attack</color> Tutorial",
+            "description": "Consume STA to attack the target, dealing <color=Light>Spectro DMG</color>."
+        },
+        {
+            "title": "Jinhsi: <color=#d4bf5f>Resonance Skill</color> Tutorial",
+            "description": "Dash forward and perform consecutive strikes that inflict <color=Light>Spectro DMG</color>."
+        },
+        {
+            "title": "Jinhsi: <color=#d4bf5f>Resonance Skill</color> Tutorial",
+            "description": "After Jinhsi uses Basic Attack Stage 4 or Intro Skill, an alternative Resonance Skill <color=Highlight>Overflowing Radiance</color> is available within {0}s.\nResonance Skill <color=Highlight>Overflowing Radiance</color> inflicts <color=Light>Spectro DMG</color> and sends Jinhsi into <color=Highlight>Incarnation</color>.\nCan be cast in mid-air."
+        },
+        {
+            "title": "Jinhsi: <color=#d4bf5f>Forte Circuit</color> Tutorial -  <color=Highlight>Incarnation</color>",
+            "description": "While in <color=Highlight>Incarnation</color>, alternative Resonance Skill <color=Highlight>Crescent Divinity</color> becomes available. <color=Highlight>Crescent Divinity</color> deals <color=Light>Spectro DMG</color>."
+        },
+        {
+            "title": "Jinhsi: <color=#d4bf5f>Forte Circuit</color> Tutorial - <color=Highlight>Incarnation</color>",
+            "description": "While in <color=Highlight>Incarnation</color>, alternative Heavy Attack <color=Highlight>\"Incarnation: Heavy Attack\"</color> becomes available. Attack the target in mid-air at the cost of STA, dealing <color=Light>Spectro DMG</color>."
+        },
+        {
+            "title": "Jinhsi: <color=#d4bf5f>Forte Circuit</color> Tutorial - <color=Highlight>Incarnation</color>",
+            "description": "While in <color=Highlight>Incarnation</color>, alternative Heavy Attack <color=Highlight>\"Incarnation: Heavy Attack\"</color> becomes available. Attack the target in mid-air at the cost of STA, dealing <color=Light>Spectro DMG</color>."
+        },
+        {
+            "title": "Jinhsi: <color=#d4bf5f>Combo Attack</color> Tutorial",
+            "description": "After Stage 4 of <color=Highlight>Incarnation: Basic Attack</color>, <color=Highlight>Incarnation</color> terminates and Jinhsi gains <color=Highlight>Ordination Glow</color>.\nWhile in <color=Highlight>Ordination Glow</color>, Basic Attack is replaced with Heavy Attack <color=Highlight>\"Incarnation: Heavy Attack\"</color> when airborne. Attack the target in mid-air at the cost of STA, dealing <color=Light>Spectro DMG</color>.\nResonance Skill is replaced with Resonance Skill <color=Highlight>Illuminous Epiphany</color>. Send out <color=Highlight>Solar Flare</color> that detonates as <color=Highlight>Stella Glamour</color> after a short delay.\nAfter casting Resonance Skill <color=Highlight>Illuminous Epiphany</color>, Jinhsi gains <color=Highlight>Unison</color>. While Jinhsi has <color=Highlight>Unison</color>, switching to other Resonators will remove Jinhsi's <color=Highlight>Unison</color> to trigger Jinhsi's Outro Skill and the incoming Resonator's Intro Skill, lasting for 5s. <color=Highlight>Unison</color> will be consumed in priority in place of Concerto Energy when Concerto Energy is full."
+        },
+        {
+            "title": "Jinhsi: <color=#d4bf5f>Resonance Liberation</color> Tutorial",
+            "description": "Unleash the power of a heart's wish to deal <color=Highlight>Spectro DMG</color>.\nCan be cast in mid-air."
+        }
+    ]
+}

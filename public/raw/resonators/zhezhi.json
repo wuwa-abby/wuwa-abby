@@ -1,0 +1,74 @@
+{
+    "id": "1105",
+    "name": "Zhezhi",
+    "nickname": "Zhezhi",
+    "birthday": "December 31",
+    "sex": "Female",
+    "country": "Huanglong",
+    "influence": "Jinzhou",
+    "bio": "Zhezhi",
+    "talent": {
+        "name": "Enchanted Brush",
+        "description": "Evaluation Basis: [Resonance Assessment 1231-G]\n\nThe exact timing of Resonator Zhezhi's Awakening is unclear. Signs of \"animation\" appeared in her childhood drawings, and her Forte control improved alongside her painting skills.\n\nResonator Zhezhi's Tacet Mark is located on the back of her right hand. Post-Awakening observations have not found any significant physical changes. Testing shows Zhezhi can \"animate\" her paintings, affecting observers' visual perception and judgment (effective on both living organisms and Tacet Discords).\n \n\"Animation\" has two levels:\nModerate: Causes slight movements in two-dimensional images.\nSevere: Simulates three-dimensional volumetric forms, lasting up to 30 minutes and 28 seconds, covering up to 274.5 square meters.\n\nBoth levels produce illusions, not actual objects. No stable interval detected.\n\nNo similar Resonance Spectrum Pattern identified, and the cause of Zhezhi's Awakening remains unclear.\nAdditionally, analysis of test samples show a Rabelle's Curve with a noticeable periodic waveform. Therefore, Zhezhi is identified as a Congenital Resonator."
+    },
+    "voice_actors": {
+        "CN": "VA: Miao Zi",
+        "JP": "VA: Makino Yui",
+        "EN": "VA: Shin-Fei Chen",
+        "KO": "VA: Kim Ha Ru"
+    },
+    "combo_teaching": [
+        {
+            "title": "Zhezhi: <color=#d4bf5f>Basic Attack</color> Tutorial",
+            "description": "Perform up to 3 consecutive attacks, dealing <color=Ice>Glacio DMG</color> and restoring Afflatus."
+        },
+        {
+            "title": "Zhezhi: <color=#d4bf5f>Mid-air Attack</color> Tutorial",
+            "description": "Consume STA to perform up to 2 consecutive attacks in the air, dealing <color=Ice>Glacio DMG</color> and restoring Afflatus."
+        },
+        {
+            "title": "Zhezhi: <color=#d4bf5f>Heavy Attack</color> Tutorial",
+            "description": "Consume STA to perform a Heavy Attack on the target, dealing <color=Ice>Glacio DMG</color>. <color=Highlight>Heavy Attack</color> does not reset the Basic Attack cycle. It restores Afflatus."
+        },
+        {
+            "title": "Zhezhi: <color=#d4bf5f>Chain Heavy Attack</color> Tutorial (Ground)",
+            "description": "<color=Highlight>Hold Basic Attack</color> within a short time after performing <color=Highlight>Basic Attack 3</color> to use it."
+        },
+        {
+            "title": "Zhezhi: <color=#d4bf5f>Chaini Heavy Attack</color> Tutorial (Mid-air)",
+            "description": "<color=Highlight>Hold Basic Attack</color> while in <color=Highlight>mid-air</color> to use it."
+        },
+        {
+            "title": "Zhezhi: <color=#d4bf5f>Resonance Skill</color> Tutorial (Tap)",
+            "description": "Tap Resonance Skill to cast it, dealing <color=Ice>Glacio DMG</color>."
+        },
+        {
+            "title": "Zhezhi: <color=#d4bf5f>Resonance Skill</color> Tutorial (Hold)",
+            "description": "Hold Resonance Skill to cast it, dealing <color=Ice>Glacio DMG</color>."
+        },
+        {
+            "title": "Zhezhi: <color=#d4bf5f>Resonance Skill</color> Tutorial (Mid-air)",
+            "description": "Tap Resonance Skill to cast it in <color=Highlight>mid-air</color>, dealing <color=Ice>Glacio DMG</color>."
+        },
+        {
+            "title": "Zhezhi: <color=#d4bf5f>Combo 1</color> Tutorial",
+            "description": "When the <color=Highlight>Forte Gauge</color> is full, use <color=Highlight>Resonance Skill</color> and then <color=Highlight>Basic Attack</color> to summon 3 <color=Highlight>Phantasmic Imprints</color>. Each <color=Highlight>Phantasmic Imprint</color> allows Zhezhi to cast 1 <color=Highlight>Chain Resonance Skill</color>."
+        },
+        {
+            "title": "Zhezhi: <color=#d4bf5f>Combo 4</color> Tutorial",
+            "description": "Within a short time after casting <color=Highlight>Chain Resonance Skill</color>, if Zhezhi has <color=Highlight>Afflatus</color>, you can hold <color=Highlight>Basic Attack</color> to cast <color=Highlight>Chain Heavy Attack</color> and summon an extra <color=Highlight>Phantasmic Imprint</color>."
+        },
+        {
+            "title": "Zhezhi: <color=#d4bf5f>Resonance Liberation</color> Tutorial",
+            "description": "Zhezhi summons the <color=Highlight>Inklit Spirit</color> to assist in combat."
+        },
+        {
+            "title": "Zhezhi: <color=#d4bf5f>Combo 2</color> Tutorial",
+            "description": "When the <color=Highlight>Forte Gauge</color> is full, hold <color=Highlight>Resonance Skill</color> and then use <color=Highlight>Basic Attack</color> to summon 3 <color=Highlight>Phantasmic Imprints</color>. Each <color=Highlight>Phantasmic Imprint</color> allows Zhezhi to cast 1 <color=Highlight>Chain Resonance Skill</color>."
+        },
+        {
+            "title": "Zhezhi: <color=#d4bf5f>Combo 3</color> Tutorial",
+            "description": "Within a short time after casting <color=Highlight>Chain Resonance Skill</color>, if Zhezhi has <color=Highlight>Afflatus</color>, you can hold <color=Highlight>Basic Attack</color> to cast <color=Highlight>Chain Heavy Attack</color> and summon an extra <color=Highlight>Phantasmic Imprint</color>."
+        }
+    ]
+}

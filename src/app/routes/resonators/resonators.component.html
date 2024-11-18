@@ -1,0 +1,138 @@
+<div class="page__title">
+    <p-toolbar>
+        <div class="p-toolbar-group-start block">
+            <p-iconField [iconPosition]="state['isReadingMemory'] ? 'right' : 'left'">
+                <p-inputIcon [styleClass]="state['isReadingMemory'] ? 'pi pi-spin pi-spinner' : 'pi pi-search'" />
+                <input type="text" pInputText
+                    [placeholder]="state['isReadingMemory'] ? 'Loading, please wait ... ' : 'Search'"
+                    [readOnly]="state['isReadingMemory']" [(ngModel)]="searchQuery" />
+            </p-iconField>
+            <p-button label="Filter" icon="pi pi-filter" iconPos="right" ariaLabel="Filter" severity="secondary"
+                styleClass="ms-2" (onClick)="state['showFilterModal'] = true" />
+        </div>
+        <div class="p-toolbar-group-end">
+            <p-button label="Claim Event Items" icon="pi pi-gift" iconPos="right" severity="help" styleClass="me-2"
+                size="small" />
+            <p-selectButton [options]="displayTypes" [(ngModel)]="selectedDisplayType" optionLabel="label"
+                optionValue="value" [allowEmpty]="false" (onChange)="onDisplayTypeChange()" />
+        </div>
+    </p-toolbar>
+</div>
+
+@defer {
+<p-dialog header="Filter" [modal]="true" [closable]="false" [focusTrap]="true" [(visible)]="state['showFilterModal']">
+    <p-messages [(value)]="filterHelpMessage" [enableService]="false" [closable]="true"></p-messages>
+
+    <div class="text-lg my-2">Attributes</div>
+    <p-selectButton [options]="filterAttributes" [(ngModel)]="selectedAttributes" optionLabel="label"
+        optionValue="value" [allowEmpty]="true" [multiple]="true">
+        <ng-template let-item pTemplate>
+            <div class="p-button-label">
+                <img [ngSrc]="'images/elements/T_IconElement' + item.label + '.png'" [alt]="item.label" height="24"
+                    width="24" />
+                <div>{{ item.label }}</div>
+            </div>
+        </ng-template>
+    </p-selectButton>
+
+    <div class="text-lg my-2">Quality</div>
+    <p-selectButton [options]="filterQuality" [(ngModel)]="selectedQuality" optionLabel="label" optionValue="value"
+        [allowEmpty]="true" [multiple]="true">
+        <ng-template let-item pTemplate>
+            <div class="p-button-label">
+                <div class="text-{{item.value}}-star">
+                    {{ item.label }}
+                </div>
+                <div>{{item.value}} Star</div>
+            </div>
+        </ng-template>
+    </p-selectButton>
+
+    <div class="text-lg my-2">Weapon Type</div>
+    <p-selectButton [options]="filterWeaponTypes" [(ngModel)]="selectedWeaponTypes" optionLabel="label"
+        optionValue="value" [allowEmpty]="true" [multiple]="true">
+        <ng-template let-item pTemplate>
+            <div class="p-button-label">
+                <img class="filter__weapon-icon" [ngSrc]="'images/weapons/weapons-type/T_IconNor' + item.label + '.png'"
+                    [alt]="item.label" height="24" width="24" />
+                <div>{{ item.label }}</div>
+            </div>
+        </ng-template>
+    </p-selectButton>
+
+
+    <ng-template pTemplate="footer">
+        <div class="flex flex-row gap-2 justify-content-end">
+            <p-button label="Reset" icon="pi pi-undo" iconPos="right" severity="danger" [outlined]="true"
+                (onClick)="setDefaultFilters(); state['showFilterModal']=false" />
+            <p-button label="Close" icon="pi pi-times" iconPos="right" (onClick)="state['showFilterModal']=false" />
+        </div>
+    </ng-template>
+</p-dialog>
+}
+
+<div class="page__content grid mt-2">
+    @if(selectedDisplayType === 0) {
+    <div class="col-6 md:col-4 lg:col-2" *ngFor="let resonator of resonators; let i = index">
+        <p-card styleClass="resonator__container border-{{resonator.rarity}}-star surface-ground"
+            [routerLink]="[resonator.name]">
+            <ng-template pTemplate="header">
+                <div class="resonator__image-container">
+                    <img class="resonator__image" [class.obtained]="resonator.firstObtainedAt"
+                        [ngSrc]="'images/characters/T_IconRole_Pile_' + resonator.imageName.toLowerCase() + '_UI.png'"
+                        [alt]="resonator.name" height="293" width="212" placeholder />
+
+                    <img class="resonator__element-img" [class]="resonator.element.toLowerCase()" height="36" width="36"
+                        ngSrc="images/elements/T_IconElement{{resonator.element}}.png" [alt]="resonator.element"
+                        [pTooltip]="resonator.element">
+                    <div class="resonator__image-fade"></div>
+                </div>
+            </ng-template>
+            <div class="position-relative">
+                <div class="p-card-title resonator__name mt-2">
+                    {{ resonator.name }}
+                    <p-tag value="S{{resonator.sequenceCount}}"
+                        [severity]="resonator.sequenceCount === 6? 'warning': 'secondary'"
+                        [icon]="resonator.sequenceCount === 6? 'pi pi-sparkles': ''" *ngIf="resonator.sequenceCount" />
+                </div>
+                <p class="resonator__obtained-at text-sm text-500"
+                    *ngIf="resonator.lastObtainedAt || resonator.firstObtainedAt">
+                    <span>Obtained At: </span>
+                    <span>{{ (resonator.lastObtainedAt || resonator.firstObtainedAt) | date: 'short' }}</span>
+                </p>
+            </div>
+        </p-card>
+    </div>
+    }
+
+    @defer(when selectedDisplayType === 1; prefetch on immediate) {
+    @if(selectedDisplayType === 1) {
+    <div class="col-6 md:col-4 lg:col-2" *ngFor="let weapon of weapons; let i = index">
+        <p-card styleClass="resonator__container border-{{weapon.rarity}}-star surface-ground">
+            <ng-template pTemplate="header">
+                <div class="resonator__image-container">
+                    <img class="resonator__image" [class.obtained]="weapon.firstObtainedAt"
+                        [ngSrc]="'images/weapons/T_IconWeapon160_' + weapon.resourceId + '_UI.png'" [alt]="weapon.name"
+                        height="293" width="226" [attr.priority]="i <= 5" [attr.placeholder]="i > 5" />
+
+                    <div class="resonator__image-fade"></div>
+                </div>
+            </ng-template>
+            <div class="position-relative">
+                <div class="p-card-title resonator__name mt-2">
+                    {{ weapon.name }}
+                    <p-tag value="R{{weapon.sequenceCount}}"
+                        [severity]="weapon.sequenceCount === 6? 'warning': 'secondary'"
+                        [icon]="weapon.sequenceCount === 6? 'pi pi-sparkles': ''" *ngIf="weapon.sequenceCount" />
+                </div>
+                <p class="resonator__obtained-at text-sm text-500 d-none d-lg-block"
+                    *ngIf="weapon.lastObtainedAt || weapon.firstObtainedAt">
+                    <span>Obtained At: </span>
+                    <span>{{ (weapon.lastObtainedAt || weapon.firstObtainedAt) | date: 'short' }}</span>
+                </p>
+            </div>
+        </p-card>
+    </div>
+    }
+    }
+</div>

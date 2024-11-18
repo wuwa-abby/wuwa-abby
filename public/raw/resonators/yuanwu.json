@@ -1,0 +1,54 @@
+{
+    "id": "1303",
+    "name": "Yuanwu",
+    "nickname": "Fist of Thunder",
+    "birthday": "October 2nd",
+    "sex": "Male",
+    "country": "Huanglong",
+    "influence": "Jinzhou",
+    "bio": "October 2nd",
+    "talent": {
+        "name": "Fist of Thunder",
+        "description": "Evaluation Basis: [Resonance Assessment 1425-G]\n\nThe exact time of Resonator Yuanwu's Awakening is unclear. Resonator Yuanwu recounted that he was exposed to powerful electrical energy for extended times before his Awakening.\n\nResonator Yuanwu's Tacet Mark is located on the right side of his neck. After his Awakening, blue crystal-like structures appeared on his front limbs, with scar-like tissue visible on his hands and wrists. These changes have since stabilized.\n\nResonator Yuanwu has extraordinary control over the frequency fluctuations of his body. He can engineer the amplitude and range of his frequencies in an instant, seemingly without doing any harm to himself. Tests have concluded that he is 82.58% more proficient in manipulating frequencies than the average Resonator.\n\nThe Resonance Spectrum Pattern of Yuanwu has been observed to align closely with that of thunder. A strong Syntony reaction has been observed, yet the cause of Yuanwu's Awakening remains unclear.\nAnalysis of test samples has revealed a non-convergent Rabelle's Curve with a gradual rise. Resonator Yuanwu is thereby classified as a Natural Resonator."
+    },
+    "voice_actors": {
+        "CN": "VA: Liu BeiChen",
+        "JP": "VA: Shirokuma Hiroshi",
+        "EN": "VA: Adam Diggle",
+        "KO": "VA: Park Sung Tae"
+    },
+    "combo_teaching": [
+        {
+            "title": "Yuanwu: <color=#d4bf5f>Basic Attack</color> Tutorial",
+            "description": "Perform up to 5 attacks with vigorous martial art moves, dealing <color=#9656d8ff>Electro damage</color>."
+        },
+        {
+            "title": "Yuanwu: <color=#d4bf5f>Heavy Attack</color> Tutorial",
+            "description": "Consume STA to charge forward and attack the target, dealing <color=#9656d8ff>Electro DMG</color>."
+        },
+        {
+            "title": "Yuanwu: <color=#d4bf5f>Mid-air Attack</color> Tutorial",
+            "description": "Consume STA to leap up and attack below you, dealing <color=#9656d8ff>Electro DMG</color>."
+        },
+        {
+            "title": "Yuanwu: Resonance Skill Tutorial - <color=#f4d582>Thunder Wedge</color>",
+            "description": "Tap Leihuang Master to summon a Thunder Wedge, dealing <color=#9656d8ff>Electro damage</color>."
+        },
+        {
+            "title": "Yuanwu: Resonance Skill Tutorial <color=#f4d582>Thunder Field</color>",
+            "description": "Yuanwu summons a Thunder Wedge, forming a <color=#f4d582>Thunder Pool</color> centered on the Thunder Wedge. When a character on the team hits a target in the <color=#f4d582>Thunder Pool</color>, the Thunder Wedge will perform a Coordinated Attack, dealing <color=#9656d8ff>Electro damage</color>."
+        },
+        {
+            "title": "Yuanwu: Resonance Skill Tutorial <color=#d4bf5f>Rumbling Spark</color>",
+            "description": "When \"Readiness\" is full, hold Leihuang Master to consume all \"Readiness\" and cast Rumbling Spark, dealing <color=#9656d8ff>Electro damage</color> and entering <color=#d4bf5f>Lightning Infused</color>."
+        },
+        {
+            "title": "Yuanwu: Resonance Skill Tutorial <color=#d4bf5f>Lightning Infused</color>",
+            "description": "Under the <color=#d4bf5f>Lightning Infused</color> state: <color=Highlight>Basic Attack</color>, <color=Highlight>Heavy Attack</color> and <color=Highlight>Dodge Counter</color> are all enhanced; gain an increased Anti-interruption; the efficiency to deplete enemy Vibration Strength is increased."
+        },
+        {
+            "title": "Yuanwu: Resonance Liberation Tutorial",
+            "description": "Awaken the power of thunder and provide <color=#d4bf5f>Lightning Infused</color> for all characters on the nearby team, and attack the target with full strength, dealing <color=#9656d8ff>Electro damage</color>."
+        }
+    ]
+}

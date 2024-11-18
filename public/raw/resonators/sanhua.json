@@ -1,0 +1,46 @@
+{
+    "id": "1102",
+    "name": "Sanhua",
+    "nickname": "Snow Waltz",
+    "birthday": "January 20th",
+    "sex": "Female",
+    "country": "Huanglong",
+    "influence": "Jinzhou",
+    "bio": "January 20th",
+    "talent": {
+        "name": "Snow Waltz",
+        "description": "Evaluation Basis: [Resonance Assessment 2105-G]\n\nBased on Resonator Sanhua's reports, Sanhua was born with abnormal eye structure resulting in blindness of both eyes. The later Tacet Discord encounter during a blizzard caused by Waveworn Phenomenon left frequency erosions to her right eye, leading to Sanhua's abnormal vision and the subsequent Awakening of Forte.\n\nResonator Sanhua's Tacet Mark is located in her right pupil, only visible when she exerts her Forte. After analyzing Sanhua's testimonies and medical tests, we've pinpointed physical changes following her Awakening. These include a chaotic frequency reaction of her right pupil near the Tacet Mark, appearing red. The erosion is also advancing, evident in the color shift from grey to red in her left pupil.\n\nSanhua has gained abnormal vision and control over snow through her Forte, its strength tied to her focus. After analyzing her explanations, our initial conclusion is that her sight differs from the norm, allowing her to perceive object frequencies directly. Frequency tests show 99.64% accuracy in her visualization.\n\nSanhua's Resonance Spectrum Pattern is identical to that of the snow. Additionally, the spectrum patterns of her pupils are identical to the Frequency Fluctuation interval of known TDs. Both tests revealed strong Syntony reactions, and the exact cause of her Awakening remains unclear.\n\nAnalysis of test samples has revealed a non-convergent Rabelle's Curve with a steep rise in its middle section. Therefore, Sanhua is classified as a Mutant Resonator."
+    },
+    "voice_actors": {
+        "CN": "VA: Song Yuanyuan",
+        "JP": "VA: Matsuda Risae",
+        "EN": "VA: Jennifer Armour",
+        "KO": "VA: Yu Yeong"
+    },
+    "combo_teaching": [
+        {
+            "title": "Sanhua: <color=#d4bf5f>Basic Attack</color> Tutorial",
+            "description": "Perform up to 5 consecutive attacks, dealing <color=#1891e7ff>Glacio DMG</color>. Gain 1 stack of \"Clarity\" upon casting Basic Attack V."
+        },
+        {
+            "title": "Sanhua: <color=#f4d582>Heavy Attack</color> Tutorial <color=#d4bf5f>Detonate</color>",
+            "description": "Hold <color=#f4d582>Heavy Attack</color> and release when the cursor is inside the \"Frostbite\" area to cast <color=#d4bf5f>Heavy Attack: Detonate</color>, dealing <color=#1891e7ff>Glacio DMG</color>."
+        },
+        {
+            "title": "Sanhua: <color=#d4bf5f>Mid-air Attack</color> Tutorial",
+            "description": "Consume STA to perform a Mid-air Plunging Attack, dealing <color=Ice>Glacio DMG</color>."
+        },
+        {
+            "title": "Sanhua: Resonance Skill Tutorial",
+            "description": "Deal <color=Ice>Glacio DMG</color>. Leave behind 1 \"Ice Prism\". Gain 1 stack of \"Clarity\"."
+        },
+        {
+            "title": "Sanhua: Resonance Liberation Tutorial",
+            "description": "Deal <color=#1891e7ff>Glacio DMG</color> and create 1 \"Glacier\". At the same time, gain 2 stacks of \"Clarity\"."
+        },
+        {
+            "title": "Sanhua: Forte Circuit Tutorial <color=#d4bf5f>Ice Burst</color>",
+            "description": "<color=#f4d582>Heavy Attack: Detonate</color> will detonate \"Ice Thorn\", \"Ice Prism\" and \"Glacier\" on the path of the attack, dealing <color=#1891e7ff>Glacio DMG</color>."
+        }
+    ]
+}

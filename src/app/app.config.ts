@@ -3,11 +3,13 @@ import { provideRouter } from '@angular/router';
 import { provideAnimations } from '@angular/platform-browser/animations';
 import { provideClientHydration } from '@angular/platform-browser';
 import { provideHttpClient, withFetch } from '@angular/common/http';
+import { provideImgixLoader } from '@angular/common';
 
 import { MessageService } from 'primeng/api';
 import { provideHighlightOptions } from 'ngx-highlightjs';
 
 import { routes } from './app.routes';
+import { environment } from '../environments/environment';
 
 export const appConfig: ApplicationConfig = {
 	providers: [
@@ -26,5 +28,6 @@ export const appConfig: ApplicationConfig = {
 			},
 		}),
 		provideHttpClient(withFetch()),
+		provideImgixLoader(environment.baseUrl),
 	],
 };

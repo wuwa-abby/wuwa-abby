@@ -1,0 +1,54 @@
+{
+    "id": "1205",
+    "name": "Changli",
+    "nickname": "An error occurred. Please contact our Customer Service for assistance.",
+    "birthday": "June 6th",
+    "sex": "Female",
+    "country": "Huanglong",
+    "influence": "Jinzhou",
+    "bio": "June 6th",
+    "talent": {
+        "name": "Eternal Blaze",
+        "description": "Evaluation Basis: [Resonance Assessment 2326-G]\n\nThe precise timing of Resonator Changli's Awakening remains uncertain. Reports indicate that Resonator Changli displayed early signs of fire manipulation during her childhood, often struggling to control it. However, as Changli matured into adulthood, the frequency and stability of these manifestations notably improved.\n\nResonator Changli's Tacet Mark is situated on her lower chest. Post-Awakening examinations have identified specific alterations in her physical attributes. These include a gradual fading of hair color at the tips and feather-like burn marks on her left arm, emitting a fiery glow influenced by her Forte.\n\nThe Resonance Spectrum Pattern of Changli mirrors the characteristics of fire, displaying a robust Syntony reaction in testing. Despite the exact trigger for her Awakening remaining uncertain, no other sample with a Resonance Spectrum Pattern similarity exceeding 60% has been identified. Resonator Changli's Forte aligns closely with the mythical spirit bird from Huanglong folklore, possibly influenced by her early immersion in tales related to this legendary creature.\n\nResonator Changli possesses the unique ability to compress flames into delicate feather-shaped projectiles. Her Forte, once unleashed, has the power to create scorching fires of exceptional heat, capable of devastating a large area. A telltale sign that her Forte is active is the emergence of a lone fiery feather with an eye-like pattern on her forehead, which she describes as the \"Mind's Eye.\"\n\nAnalysis of test samples has revealed a non-convergent Rabelle's Curve with a stable rise. Occasional fluctuations within normal range have been detected. Therefore, Changli is identified as a Natural Resonator."
+    },
+    "voice_actors": {
+        "CN": "VA: Mufei",
+        "JP": "VA: Chiwa Saitô",
+        "EN": "VA: Ashleigh Haddad",
+        "KO": "VA: Shin Na Ri"
+    },
+    "combo_teaching": [
+        {
+            "title": "Changli: <color=#d4bf5f>Basic Attack</color> Tutorial",
+            "description": "Perform up to 4 consecutive attacks, dealing <color=Fire>Fusion DMG</color>.\nAfter releasing <color=Highlight>Basic Attack Stage 4</color>, Changli enters <color=Highlight>True Sight</color>, lasting for 12s.\nWhen in <color=Highlight>True Sight</color>, if Changli uses <color=Highlight>Ground Basic Attack</color>, she releases <color=Highlight>True Sight: Conquest</color>, rapidly approaching the enemy and dealing <color=Fire>Fusion DMG</color>, considered as Resonance Skill DMG. When dealing damage, Changli obtains 1 stack of [Enflamement]. After releasing <color=Highlight>True Sight: Conquest</color>, <color=Highlight>True Sight</color> ends."
+        },
+        {
+            "title": "Changli: <color=#d4bf5f>Basic Attack</color> Tutorial",
+            "description": "Perform up to 4 consecutive attacks, dealing <color=Fire>Fusion DMG</color>.\nAfter releasing <color=Highlight>Basic Attack Stage 4</color>, Changli enters <color=Highlight>True Sight</color>, lasting for 12s.\nWhen in <color=Highlight>True Sight</color>, if Changli <color=Highlight>jumps</color> or uses <color=Highlight>Basic Attack</color> in mid-air, she releases <color=Highlight>True Sight: Charge</color>, dashing towards the enemy and dealing <color=Fire>Fusion DMG</color>, considered as Resonance Skill DMG. When dealing damage, Changli obtains 1 stack of [Enflamement]. After releasing <color=Highlight>True Sight: Charge</color>, <color=Highlight>True Sight</color> ends."
+        },
+        {
+            "title": "Changli: <color=#d4bf5f>Resonance Skill</color> Tutorial",
+            "description": "After releasing <color=Highlight>Resonance Skill</color>, Changli rapidly attacks the enemy and enters <color=Highlight>True Sight</color>, lasting for 12s. In the end, Changli releases a plunging attack, dealing <color=Fire>Fusion DMG</color>."
+        },
+        {
+            "title": "Changli: <color=#d4bf5f>Resonance Skill</color> Tutorial",
+            "description": "After releasing <color=Highlight>Resonance Skill</color>, Changli rapidly attacks the enemy and enters <color=Highlight>True Sight</color>, lasting for 12s. In the end, Changli releases a plunging attack, dealing <color=Fire>Fusion DMG</color>."
+        },
+        {
+            "title": "Changli: <color=#d4bf5f>Mid-air Attack</color> Tutorial",
+            "description": "Consume STA to perform up to 4 consecutive attacks in mid-air, dealing <color=Fire>Fusion DMG</color>.\nAfter releasing <color=Highlight>Mid-air Attack Stage 4</color>, Changli enters <color=Highlight>True Sight</color>, lasting for 12s."
+        },
+        {
+            "title": "Changli: <color=#d4bf5f>Heavy Attack</color> Tutorial",
+            "description": "Hold <color=Highlight>Basic Attack</color> on the ground to consume STA to perform an upward strike, dealing <color=Fire>Fusion DMG</color>. Use <color=Highlight>Basic Attack</color> within a certain time to release <color=Highlight>Mid-air Attack Stage 3</color>."
+        },
+        {
+            "title": "Changli: <color=#d4bf5f>Enhanced Heavy Attack</color> Tutorial",
+            "description": "When releasing <color=Highlight>Heavy Attack</color>, if Changli carries 4 stacks of [Enflamement], she consumes all stacks of [Enflamement] to release <color=Highlight>Flaming Sacrifice</color>, dealing <color=Fire>Fusion DMG</color>, considered as Resonance Skill DMG."
+        },
+        {
+            "title": "Changli: <color=#d4bf5f>Resonance Liberation</color> Tutorial",
+            "description": "Deal <color=Fire>Fusion DMG</color> to nearby targets, obtaining 4 stacks of [Enflamement], and entering <color=Highlight>Fiery Feather</color>.\n<size=40><color=Title>Fiery Feather</color></size>\nWhen Changli releases Heavy Attack <color=Highlight>Flaming Sacrifice</color> within 10s, her ATK is increased, after which <color=Highlight>Fiery Feather</color> ends."
+        }
+    ]
+}

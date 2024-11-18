@@ -1,0 +1,58 @@
+{
+    "id": "1202",
+    "name": "Chixia",
+    "nickname": "Gallant Blaze",
+    "birthday": "April 18th",
+    "sex": "Female",
+    "country": "Huanglong",
+    "influence": "Jinzhou",
+    "bio": "April 18th",
+    "talent": {
+        "name": "Gallant Blaze",
+        "description": "Evaluation Basis: [Resonance Assessment 2893-G]\n\nResonator Chixia experienced her Awakening 6 years ago after being exposed to extreme temperatures and blazing flames.\n\nResonator Chixia's Tacet Mark is located in her lower left abdomen. Post-Awakening observations found a change in hair color to red and a significant increase in body temperature.\n\nShe is capable of converting the frequencies of high-temperature substances into tangible flame ammunitions. \nThe Resonance Spectrum Pattern of Chixia has been observed to align closely with that of flames. A strong Syntony reaction has been observed, yet the cause of Chixia's Awakening remains unclear.\n\n\nAnalysis of test samples has revealed a non-convergent Rabelle's Curve with a steep rise in the middle section. Resonator Chixia is thereby classified as a Mutant Resonator."
+    },
+    "voice_actors": {
+        "CN": "VA: Cai Na",
+        "JP": "VA: Nagase Anna",
+        "EN": "VA: Harriet Carmichael",
+        "KO": "VA: Kang Eun Ae"
+    },
+    "combo_teaching": [
+        {
+            "title": "Chixia: <color=#d4bf5f>Basic Attack</color> Tutorial",
+            "description": "Load bullets and perform up to 4 continuous shots, dealing <color=Fire>Fusion damage</color>."
+        },
+        {
+            "title": "Chixia: Resonance Skill Tutorial",
+            "description": "Spirit up and perform high-speed continuous shooting at the target, dealing <color=Fire>Fusion damage</color>."
+        },
+        {
+            "title": "Chixia: Forte Circuit Tutorial-<color=#d4bf5f>DAKA DAKA!</color>",
+            "description": "Hold <color=#f4d582>Resonance Skill: Whizzing Fight Spirit</color> to enter the \"DAKA DAKA!\" shooting state."
+        },
+        {
+            "title": "Chixia: Forte Circuit Tutorial <color=#d4bf5f>Heroic Bullets</color>",
+            "description": "Under the \"DAKA DAKA!\" shooting state: \nContinuously consume \"Thermobaric Bullets\" to attack the target, dealing <color=#e15226ff>Fusion Damage</color>;\nWhen \"Thermobaric Bullets\" are exhausted, exit \"DAKA DAKA!\"."
+        },
+        {
+            "title": "Chixia: Forte Circuit Tutorial <color=#f4d582>Boom Boom</color>",
+            "description": "During the \"DAKA DAKA!\" shooting state, tap Basic Attack to perform 1 shot, dealing <color=#e15226ff>Fusion damage</color>, and exiting the \"DAKA DAKA!\" shooting state.\nIf Basic Attack is tapped when 30 \"Thermobaric Bullets\" have been consumed, fire 1 <color=#f4d582>Boom Boom</color> instead before exiting the \"DAKA DAKA!\" shooting state."
+        },
+        {
+            "title": "Chixia: <color=#d4bf5f>Heavy Attack</color> Tutorial",
+            "description": "Hold Basic Attack to enter aiming mode for a more powerful shot.\nThe attack launched after charging deals <color=#e15226ff>Fusion damage</color>, and grants Thermobaric Bullets on hit."
+        },
+        {
+            "title": "Chixia: <color=#d4bf5f>Heavy Attack</color> Tutorial",
+            "description": "Hold Basic Attack to enter aiming mode for a more powerful shot.\nThe attack launched after charging deals <color=#e15226ff>Fusion damage</color>, and grants Thermobaric Bullets on hit."
+        },
+        {
+            "title": "Chixia: <color=#d4bf5f>Mid-air Attack</color> Tutorial",
+            "description": "Consume STA and continuously shoot at the target in the air, dealing <color=#e15226ff>Fusion DMG</color>, and granting \"Thermobaric Bullets\" on hit."
+        },
+        {
+            "title": "Chixia: Resonance Liberation Tutorial",
+            "description": "Quickly shoot at nearby targets, dealing <color=#e15226ff>Fusion Damage</color>, and gaining \"Thermobaric Bullets\"."
+        }
+    ]
+}

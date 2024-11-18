@@ -1,0 +1,74 @@
+{
+    "id": "1402",
+    "name": "Yangyang",
+    "nickname": "Breath of Winds",
+    "birthday": "October 11th",
+    "sex": "Female",
+    "country": "Huanglong",
+    "influence": "Jinzhou",
+    "bio": "October 11th",
+    "talent": {
+        "name": "Breath of Winds",
+        "description": "Evaluation Basis: [Resonance Assessment 1011-G]\n\nThe exact time and cause of Resonator Yangyang's Awakening remain unclear. Resonator Yangyang reports heightened sensitivity to her surroundings since her childhood.\n\nThe Tacet Mark of Resonator Yangyang is located in the center of her forehead. Post-Awakening observations found no notable physical change. As frequency fluctuations resurge, limited feather-like transformation have been observed on the ends of her hair.\n\nResonator Yangyang synchronizes with surrounding air by detecting information in air streams and creating an energy field using converging airflow.\n\nThe Resonance Spectrum Pattern of Resonator Yangyang displays over 20% resemblance to that of airflow and smaller bird species. While a strong Syntony reaction is present, the pattern also shares over 5% similarity with multiple other existing samples, indicating potential multiple or contaminating causes of Awakening.\n\nAnalysis of test samples has revealed a non-convergent Rabelle's Curve with a stable rise. Occasional fluctuations within normal range have been detected. Therefore, Yangyang is identified as a Natural Resonator."
+    },
+    "voice_actors": {
+        "CN": "VA: Jen Zhang",
+        "JP": "VA: Ishikawa Yui",
+        "EN": "VA: Rebecca Yeo",
+        "KO": "VA: Lee Yoo Ri"
+    },
+    "combo_teaching": [
+        {
+            "title": "Yangyang: <color=#d4bf5f>Basic Attack</color> Tutorial",
+            "description": "Perform up to 4 consecutive attacks, dealing <color=#46c3d4ff>Aero DMG</color>. When Attack IV hits the target, gain 1 Melody."
+        },
+        {
+            "title": "Yangyang: Resonance Skill Tutorial",
+            "description": "Divide the wind field with the blade and pull the surrounding targets to the center of the wind field, dealing <color=#46c3d4ff>Aero DMG</color> and gaining 1 Melody."
+        },
+        {
+            "title": "Yangyang: <color=#d4bf5f>Heavy Attack</color> Tutorial",
+            "description": "Consume STA and lunge forward, dealing <color=#46c3d4ff>Aero DMG</color>. Use Basic Attack shortly after a Heavy Attack to unleash a wind blade, dealing <color=#46c3d4ff>Aero DMG</color> and gaining 1 Melody."
+        },
+        {
+            "title": "Yangyang: Forte Circuit Tutorial <color=#d4bf5f>Stormy Strike</color>",
+            "description": "When 3 Melodies are present, Stormy Strike can be triggered after a Heavy Attack hits a target, dealing <color=#46c3d4ff>Aero DMG</color>."
+        },
+        {
+            "title": "Yangyang: Forte Circuit Tutorial <color=#d4bf5f>Mid-air Attack: Feather Release</color>",
+            "description": "Use <color=#f4d582>Mid-air Attack</color> in the air if 3 Melodies are present to consume all Melodies and attack, dealing <color=#46c3d4ff>Aero DMG</color>. Then attack with the sheathed sword after landing, dealing <color=#46c3d4ff>Aero DMG</color>."
+        },
+        {
+            "title": "Yangyang: Resonance Liberation Tutorial",
+            "description": "Swing the blade to create a whirlwind, pulling the surrounding targets to the center, dealing <color=#46c3d4ff>Aero DMG</color>."
+        },
+        {
+            "title": "Basic Attack",
+            "description": "Yangyang's Basic Attack consists of 4 stages, the last granting 1 Forte Gauge."
+        },
+        {
+            "title": "Resonance Skill",
+            "description": "Yangyang's Resonance Skill grants Melody on hit."
+        },
+        {
+            "title": "Heavy Attack: Forte Gauge not full",
+            "description": "When Forte Gauge is not full, hold Basic Attack to trigger a Heavy Attack penetrating the enemy, then use Basic Attack to perform a follow-up attack."
+        },
+        {
+            "title": "Heavy Attack: Forte Gauge full",
+            "description": "When Forte Gauge is full, Heavy Attack automatically triggers an uppercut on hit. Cast a Basic Attack in the air to trigger an enhanced plunging attack."
+        },
+        {
+            "title": "Heavy Attack: Forte Gauge full",
+            "description": "When Forte Gauge is full, Heavy Attack automatically triggers an uppercut on hit. Cast a Basic Attack in the air to trigger an enhanced plunging attack."
+        },
+        {
+            "title": "Heavy Attack: full Melody",
+            "description": "When Forte Gauge is full, Heavy Attack automatically triggers an uppercut on hit. Cast a Basic Attack in the air to trigger an enhanced plunging attack."
+        },
+        {
+            "title": "Mid-Air Plunging Attack: Forte Gauge full",
+            "description": "Test - When Forte Gauge is full, use Basic Attack in the air to trigger an enhanced Plunging Attack."
+        }
+    ]
+}

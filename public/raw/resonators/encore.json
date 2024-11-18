@@ -1,0 +1,50 @@
+{
+    "id": "1203",
+    "name": "Encore",
+    "nickname": "Wooly-Counting Game",
+    "birthday": "March 21st",
+    "sex": "Female",
+    "country": "New Federation",
+    "influence": "The Black Shores",
+    "bio": "March 21st",
+    "talent": {
+        "name": "Wooly-Counting Game",
+        "description": "Evaluation Basis: [Resonance Assessment 1631-G]\nThe exact time of Resonator Encore's Awakening remains uncertain. According to Encore's reports and resonance inspection, the sheep-like entities that accompany her are considered to be manifestations of her imagination and psychological state. They are believed to represent her Forte abilities.\n\nEncore's Resonance Assessment was found to be influenced by the collective emotion in the testing environment, exhibiting a strong Syntony response. The cause of her Awakening remains unconfirmed.\n\nEncore bears a Tacet Mark on her upper back, and Post-Awakening examinations have revealed minor physical mutations, including wool-like hair tips. In times of heightened emotional states, she may also manifest sheep-like horns, requiring caution from testing personnel.\n\nAnalysis of test samples has revealed a non-convergent Rabelle's Curve with a noticeable periodic waveform, which classifies Encore as a Congenital Resonator."
+    },
+    "voice_actors": {
+        "CN": "VA: Shi Haku",
+        "JP": "VA: Ibuki Chikano",
+        "EN": "VA: Carina Reeves",
+        "KO": "VA: Lee Serena"
+    },
+    "combo_teaching": [
+        {
+            "title": "Encore: <color=#d4bf5f>Basic Attack</color> Tutorial",
+            "description": "Summon Woolies to perform up to 4 consecutive attacks, dealing <color=#e15226ff>Fusion damage</color>. After <color=#f4d582>Basic Attack IV</color>, Angry Points will appear around Encore. Use <color=#f4d582>Basic Attack</color> now to cast 1 additional attack, dealing <color=#e15226ff>Fusion damage</color>."
+        },
+        {
+            "title": "Encore: <color=#d4bf5f>Heavy Attack</color> Tutorial",
+            "description": "Consume STA and command the Woolies to attack a target, dealing <color=#e15226ff>Fusion DMG</color>."
+        },
+        {
+            "title": "Encore: <color=#d4bf5f>Mid-air Attack</color> Tutorial",
+            "description": "Consume STA to fall from the air, dealing <color=#e15226ff>Fusion DMG</color>."
+        },
+        {
+            "title": "Encore: Resonance Skill Tutorial",
+            "description": "Summon Cloudy and Cosmos, and attack the target with high-temperature rays, dealing <color=#e15226ff>Fusion damage</color>.\nAfter casting <color=#f4d582>Flaming Woolies</color>, Angry Points will appear around Encore. Use <color=#f4d582>Flaming Woolies</color> again now to perform 1 additional attack, dealing <color=#e15226ff>Fusion damage</color>."
+        },
+        {
+            "title": "Encore: Forte Circuit Tutorial <color=#d4bf5f>Heavy Attack: Cloudy Frenzy</color>",
+            "description": "When Encore's \"Mayhem\" is full, use <color=#f4d582>Heavy Attack</color> to enter the Mayhem state and take reduced DMG. After the Mayhem state ends, Cloudy Frenzy will be cast, dealing <color=#e15226ff>Fusion damage</color>, considered as Resonance Liberation damage."
+        },
+        {
+            "title": "Encore: Resonance Liberation Tutorial",
+            "description": "Encore loses the ability to suppress Cosmos, who appears and starts attacking the target. Encore enters the <color=Highlight>Cosmos Rave</color> state, during which her Basic Attack, Heavy Attack, and Resonance Skill will be replaced with new ones."
+        },
+        {
+            "title": "Encore: Forte Circuit Tutorial <color=#d4bf5f>Heavy Attack: Cosmos Rupture</color>",
+            "description": "During <color=Highlight>Cosmos Rave</color>, use <color=Highlight>Heavy Attack</color> when \"Mayhem\" is full to consume all \"Mayhem\" and enter the Cosmos Mayhem state. After the Cosmos Mayhem state ends, all \"Mayhem\" will be consumed to cast Cosmos: Rupture, dealing <color=#e15226ff>Fusion Damage</color>, considered as Resonance Liberation DMG."
+        }
+    ]
+}

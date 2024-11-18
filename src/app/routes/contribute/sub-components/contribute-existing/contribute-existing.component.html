@@ -1,0 +1,79 @@
+<p-breadcrumb [model]="breadcrumbs" />
+
+<div class="page__title">
+    <h1 class="text-5xl">Pick an item</h1>
+</div>
+
+<div class="page__content">
+    @if(!updateType) {
+    <div class="item-choice__container grid">
+        <div class="item-choice__container__item col">
+            <p-card [styleClass]="'w-full h-100 position-relative ' + resonatorUpdateClass"
+                (click)="changeUpdateType('resonator')">
+                <ng-template pTemplate="header">
+                    <h1 class="p-card-title type-picker z-2">
+                        Update Resonator Data
+                    </h1>
+                </ng-template>
+                <img class="item-choice__background-img" ngSrc="images/contributor/contribution-type/T_SanhuaPixA.png"
+                    fill priority onload="this.style.opacity = 1" />
+                <p class="vignette"></p>
+            </p-card>
+        </div>
+        <div class="item-choice__container__item col">
+            <p-card [styleClass]="'w-full h-100 position-relative ' + weaponUpdateClass"
+                (click)="changeUpdateType('weapon')">
+                <ng-template pTemplate="header">
+                    <h1 class="p-card-title type-picker z-2">
+                        Update Weapon Data
+                    </h1>
+                </ng-template>
+                <img class="item-choice__background-img"
+                    ngSrc="images/contributor/contribution-type/T_LuckdraWeapon09-28081696.png" fill priority
+                    onload="this.style.opacity = 1" />
+                <p class="vignette"></p>
+            </p-card>
+        </div>
+        <div class="item-choice__container__item col">
+            <p-card styleClass="w-full h-100 position-relative">
+                <ng-template pTemplate="header">
+                    <h1 class="p-card-title type-picker z-2">
+                        More options coming soon...
+                    </h1>
+                </ng-template>
+                <img class="item-choice__background-img"
+                    ngSrc="images/contributor/contribution-type/T_IconAchv256_012.png" fill priority
+                    onload="this.style.opacity = 1" />
+                <p class="vignette"></p>
+            </p-card>
+        </div>
+    </div>
+    } @else {<ng-container *ngTemplateOutlet="filePicker" />}
+</div>
+
+<ng-template #filePicker>
+    @defer (when resonators.length > 0; prefetch on immediate) {
+    <div class="mt-2 grid">
+        <div class="col-6 md:col-4 lg:col-2" *ngFor="let resonator of resonators; let i = index">
+            <p-card styleClass="resonator__container border-{{resonator.rarity}}-star surface-ground"
+                [routerLink]="['resonators',resonator.name]">
+                <ng-template pTemplate="header">
+                    <div class="resonator__image-container">
+                        <img class="resonator__image"
+                            [ngSrc]="'images/characters/T_IconRole_Pile_' + resonator.name.toLowerCase() + '_UI.png'"
+                            [alt]="resonator.name" height="293" width="212" placeholder />
+
+                        <img class="resonator__element-img" [class]="resonator.element.toLowerCase()" height="36"
+                            width="36" ngSrc="images/elements/T_IconElement{{resonator.element}}.png"
+                            [alt]="resonator.element" [pTooltip]="resonator.element">
+                        <div class="resonator__image-fade"></div>
+                    </div>
+                </ng-template>
+                <div class="position-relative">
+                    <div class="p-card-title resonator__name mt-2">{{ resonator.name }}</div>
+                </div>
+            </p-card>
+        </div>
+    </div>
+    }
+</ng-template>

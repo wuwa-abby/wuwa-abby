@@ -1,0 +1,50 @@
+{
+    "id": "1305",
+    "name": "Xiangli Yao",
+    "nickname": "Error detected. If you have any questions, please contact Customer Service.",
+    "birthday": "Unknown",
+    "sex": "Male",
+    "country": "Huanglong",
+    "influence": "Jinzhou",
+    "bio": "Xiangli Yao",
+    "talent": {
+        "name": "Matter Weaver",
+        "description": "Evaluation Basis: [Resonance Assessment 2603-G]\n\nResonator Xiangli Yao's awakening occurred two years ago, following an incident at the Jingtian Ruins where he lost his arm and came into contact with an unknown metal substance.\n\nResonator Xiangli Yao's Tacet Mark is located on his prosthetic right arm. Post-Awakening observations revealed his ability to perform Metalmorph by manipulating the shape and stored energy of his prosthetic arm.\n\nThe Resonance Spectrum Pattern of Xiangli Yao has been observed to align closely with that of thunder. A strong Syntony reaction has been observed, yet the cause of Xiangli Yao's Awakening remains unclear due to inability to recover samples of the unknown metal substance.  \n\nAnalysis of test samples has revealed a consistent, flat Rabelle's Curve followed by a sharp ascent and stabilization. Therefore, Xiangli Yao is identified as a Mutant Resonator."
+    },
+    "voice_actors": {
+        "CN": "VA: BanMa",
+        "JP": "VA: Kobayashi Chiaki",
+        "EN": "VA: Shaun Mendum",
+        "KO": "VA: Jung Eui Jin"
+    },
+    "combo_teaching": [
+        {
+            "title": "Xiangli Yao: <color=#d4bf5f>Basic Attack</color> Tutorial",
+            "description": "Perform up to 5 consecutive attacks, dealing <color=Thunder>Electro DMG</color>."
+        },
+        {
+            "title": "Xiangli Yao: <color=#d4bf5f>Mid-air Attack</color> Tutorial",
+            "description": "Consume STA to perform a Plunging Attack from mid-air, dealing <color=Thunder>Electro DMG</color>."
+        },
+        {
+            "title": "Xiangli Yao: <color=#d4bf5f>Heavy Attack</color> Tutorial",
+            "description": "Consume STA to perform a Heavy Attack on the target, dealing <color=Thunder>Electro DMG</color>."
+        },
+        {
+            "title": "Xiangli Yao: <color=#d4bf5f>Resonance Skill</color> Tutorial",
+            "description": "Attack the target, dealing <color=Thunder>Electro DMG</color>."
+        },
+        {
+            "title": "Xiangli Yao: <color=#d4bf5f>Chain Resonance Skill</color> Tutorial",
+            "description": "When the Forte Gauge is full, you can cast the <color=Highlight>Chain Resonance Skill</color>."
+        },
+        {
+            "title": "Xiangli Yao: <color=#d4bf5f>Chain Resonance Skill</color> in Resonance Liberation State Tutorial",
+            "description": "After casting <color=Highlight>Resonance Liberation</color>, <color=Highlight>Basic Attack</color> restores the Forte Gauge on hit.\nWhen the Forte Guage is full, you can cast the <color=Highlight>Chain Resonance Skill</color>."
+        },
+        {
+            "title": "Xiangli Yao: <color=#d4bf5f>Chain Resonance Skill</color> in Resonance Liberation State Tutorial",
+            "description": "After casting <color=Highlight>Resonance Liberation</color>, <color=Highlight>Resonance Skill</color> restores the Forte Gauge on hit.\nWhen the Forte Guage is full, you can cast the <color=Highlight>Chain Resonance Skill</color>."
+        }
+    ]
+}

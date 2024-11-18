@@ -25,10 +25,9 @@ export class NavbarService {
 				label: 'Resonators',
 				icon: 'pi pi-users',
 				routerLink: 'resonators',
-				styleClass:
-					this.activeRoute === '/resonators'
-						? 'fw-semibold text-decoration-underline'
-						: '',
+				styleClass: this.activeRoute?.startsWith('/resonators')
+					? 'fw-semibold text-decoration-underline'
+					: '',
 			},
 			{
 				label: 'Statistics',

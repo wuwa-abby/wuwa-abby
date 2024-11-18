@@ -1,0 +1,50 @@
+{
+    "id": "1301",
+    "name": "Calcharo",
+    "nickname": "Calcharo",
+    "birthday": "July 8th",
+    "sex": "Male",
+    "country": "New Federation",
+    "influence": "\"Ghost Hounds\"",
+    "bio": "July 8th",
+    "talent": {
+        "name": "Phantom Hunters",
+        "description": "Evaluation Basis: [Resonance Assessment 2300-G]\n\nThe Time of Awakening for Resonator Calcharo remains unclear. According to Calcharo's report, he endured extended periods in hostile environments and faced numerous life-threatening situations. As a result, his Forte naturally awakened as a means of self-protection.\n\nResonator Calcharo's Tacet Mark is located on his forehead. When Calcharo activates his Forte, a golden core manifests on his chest. Concurrently, various parts of his body displays characterstics of Tacet Discords, entangled with shadow-like thorns.\n\nNotably, Calcharo's body possesses a significantly higher amount of bioelectrical energy compared to the average human. He demonstrates exceptional awareness of and control over electric currents and magnetic forces.\n\nThe exact cause of Resonator Calcharo's Awakening cannot be identified at the moment, as his Spectrum Pattern does not show similarity to any known samples.\n\nAnalysis of test samples has revealed a non-convergent Rabelle's Curve with a gradual rise. Resonator Calcharo is thereby classified as a Natural Resonator.\n\n\n<i>\"Actually... there is one strikingly similar Spectrum Pattern that we seem to have overlooked, or rather, we hesitated to entertain that possibility.\"</i>\n\n<i>\"Yes... It's the Tacet Discords.\"</i>"
+    },
+    "voice_actors": {
+        "CN": "VA: Xu Xiang",
+        "JP": "VA: Morikawa Toshiyuki",
+        "EN": "VA: Ben Cura",
+        "KO": "VA: Park Min Gi"
+    },
+    "combo_teaching": [
+        {
+            "title": "Calcharo: <color=#d4bf5f>Basic Attack</color> Tutorial",
+            "description": "Perform up to 4 attacks, dealing <color=Thunder>Electro damage</color>."
+        },
+        {
+            "title": "Calcharo: <color=#d4bf5f>Mid-air Attack</color> Tutorial",
+            "description": "Consume STA  to perform a Plunging Attack in the air, dealing <color=Thunder>Electro DMG</color>."
+        },
+        {
+            "title": "Calcharo: <color=#d4bf5f>Heavy Attack</color> Tutorial",
+            "description": "Consume STA to perform a Heavy Attack, dealing <color=Thunder>Electro DMG</color>."
+        },
+        {
+            "title": "Calcharo: <color=#d4bf5f>Resonance Skill</color> Tutorial",
+            "description": "Swing the blade to attack the target, dealing <color=Thunder>Electro damage</color>. Resonance Skill <color=Highlight>Extermination Order</color> can be cast up to 3 times but will be put on Cooldown if not repeated shortly after the previous cast. This Resonance Skill does not reset the Basic Attack cycle, and grants 1 \"Cruelty\" for each hit on hit."
+        },
+        {
+            "title": "Calcharo: <color=#d4bf5f>Forte Circuit</color> Tutorial",
+            "description": "Calcharo's Resonance Skill will not interrupt the cycle of Basic Attacks. Each hit deals Electro damage and grants 1 stack of \"Cruelty\"."
+        },
+        {
+            "title": "Calcharo: <color=#d4bf5f>Enhanced Heavy Attack</color> Tutorial",
+            "description": "<color=Highlight>Heavy Attack</color> is replaced with Heavy Attack <color=Highlight>\"Mercy\"</color> when Calcharo is not under Resonance Liberation <color=Highlight>Deathblade Gear</color> state and has 3 \"Mercy\". Heavy Attack <color=Highlight>\"Mercy\"</color> consumes all \"Cruelty\" to deal <color=Thunder>Electro damage</color>."
+        },
+        {
+            "title": "Calcharo: <color=#d4bf5f>Resonance Liberation</color> Tutorial",
+            "description": "Deal <color=Thunder>Electro DMG</color> to targets nearby and enter <color=Highlight>Deathblade Gear</color> state. Under <color=Highlight>Deathblade Gear</color> state, <color=Highlight>Basic Attack</color> and <color=Highlight>Dodge Counter</color> are enhanced. The Forte Gauge is replaced with \"Killing Intent\", and when \"Killing Intent\" reaches 5, <color=Highlight>Basic Attack</color> is replaced with <color=Highlight>\"Death Messenger\"</color>. <color=Highlight>\"Death Messenger\"</color> consumes all \"Killing Intent\" to deal <color=Thunder>Electro DMG</color>. <color=Highlight>Normal Attacks</color> recovers 1 \"Killing Intent\" on hit."
+        }
+    ]
+}

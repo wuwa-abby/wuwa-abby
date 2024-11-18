@@ -1,0 +1,50 @@
+{
+    "id": "1302",
+    "name": "Yinlin",
+    "nickname": "Lightning of Execution",
+    "birthday": "September 17th",
+    "sex": "Female",
+    "country": "Huanglong",
+    "influence": "Jinzhou",
+    "bio": "September 17th",
+    "talent": {
+        "name": "Enforcer Puppet",
+        "description": "Evaluation Basis: [Resonance Assessment 2917-G]\n\nResonator Yinlin's Tacet Mark is located on the exterior side of her left thigh. No significant physical changes have been observed in Yinlin's body after her Awakening. A mild electrical current has been detected on the surface of her skin, but it has not resulted in any detectable adverse effects to her body.\n\nYinlin possesses the power to converge electric currents into thin threads. Her manipulation of these threads is extraordinarily proficient.\n\nHer Resonance Spectrum Pattern is found to be similar to the Spectrum Pattern of known conductive materials. Tests have found strong Syntony.\n\nAnalysis of test samples has revealed a non-convergent Rabelle's Curve with a noticeable periodic waveform, which classifies Yinlin as a Congenital Resonator.\n\nSIDENOTES: Yinlin has a preexisting arrhythmia that may or may not be related to her Forte. Blocking of her Forte could potentially increase the risk of atrial fibrillation."
+    },
+    "voice_actors": {
+        "CN": "VA: Mickey",
+        "JP": "VA: Koshimizu Ami",
+        "EN": "VA: Naomi McDonald",
+        "KO": "VA: Kang Sae Bom"
+    },
+    "combo_teaching": [
+        {
+            "title": "Yinlin: <color=#d4bf5f>Basic Attack</color> Tutorial",
+            "description": "Yinlin controls the puppet \"Zapstring\" to perform up to 4 attacks, dealing <color=Thunder>Electro damage</color>."
+        },
+        {
+            "title": "Yinlin: <color=#d4bf5f>Mid-air Attack</color> Tutorial",
+            "description": "Consume STA and command the puppet \"Zapstring\" to crash to the ground, dealing <color=Thunder>Electro DMG</color>."
+        },
+        {
+            "title": "Yinlin: <color=#d4bf5f>Heavy Attack</color> Tutorial",
+            "description": "Consume STA and control the puppet \"Zapstring\" to attack, dealing <color=Thunder>Electro DMG</color>."
+        },
+        {
+            "title": "Yinlin: <color=#d4bf5f>Resonance Skill</color> Tutorial",
+            "description": "Control the puppet \"Zapstring\" to deal <color=Thunder>Electro damage</color> to targets within a range and enter <color=Highlight>Execution Mode</color>. Cast again to deal <color=Thunder>Electro damage</color> once, and end <color=Highlight>Execution Mode</color>."
+        },
+        {
+            "title": "Yinlin: <color=#d4bf5f>Resonance Skill</color> Tutorial",
+            "description": "During <color=Highlight>Execution Mode</color>, the puppet \"Zapstring\" will keep discharging and empower <color=Highlight>Basic Attack</color> and <color=Highlight>Dodge Counter</color> to trigger Electromagnetic Blast on hit. Each <color=Highlight>Basic Attack</color> can only trigger this once, up to 4 times."
+        },
+        {
+            "title": "Yinlin: <color=#d4bf5f>Forte Circuit</color> Tutorial",
+            "description": "When Yinlin's \"Judgment Points\" are full, <color=Highlight>Heavy Attack</color> will be replaced with <color=Highlight>Chameleon Cipher</color>, which consumes all \"Judgment Points\" and deals a wide-range <color=Thunder>Electro damage</color>, replacing \"Sinner's Mark\" with \"Punishment Mark\" on hit. \"Thunder of Judgment\" will befall all targets with \"Punishment Mark\", dealing <color=Thunder>Electro damage</color> when a target with \"Punishment Mark\" takes damage. This can be triggered up to once per second. Attacks restore \"Judgment Points\" on hit."
+        },
+        {
+            "title": "Yinlin: <color=#d4bf5f>Resonance Liberation</color> Tutorial",
+            "description": "Deal AoE <color=Thunder>Electro damage</color>. A thread is left connecting the puppet \"Zapstring\" to the target on hit, while marking it with \"Sinner's Mark\"."
+        }
+    ]
+}
